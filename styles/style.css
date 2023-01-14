@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Comfortaa', cursive, Verdana, sans-serif;
+	font-size: 14px;
+}
+
+/* Header */
+
+.header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 4.44rem;
+	padding: 0 12%;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+	font-size: .77rem;
+	font-weight: bold;
+	position: fixed;
+	width: 85%;
+}
+
+.header .logo {
+	flex-grow: 1;
+	color:rgb(86, 128, 233);
+}
+
+.header li {
+	display: inline;
+	padding-right: 2.22rem;
+}
+
+.header li a {
+	text-decoration: none;
+	color:rgb(86, 128, 233);
+}
+
+section {
+	padding: 3%;
+	padding-bottom: 2.77rem;
+	font-size: 1.5rem;
+	line-height: 1.4;
+	color:rgb(86, 128, 233);
+	padding: 5% 15%;
+}
+
+section p {
+	padding-bottom: 2.77rem;
+	font-size: 1.5rem;
+	line-height: 1.4;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: 600;
+	width: 300px;
+	margin: 0 auto;
+	padding: 3%;
+	color:rgb(86, 128, 233);
+}
+
+/* Welcome */
+
+#welcome {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 50rem;
+	background-size: cover;
+	background-image: linear-gradient(rgb(136, 96, 208), rgb(193, 200, 228),  rgb(132, 206, 235), rgb(86, 128, 233)) ;
+	color: #FFFFFF;
+}
+
+#welcome h1 {
+	padding-top: 1.11rem;
+	font-size: 8rem;
+	font-weight: 600;
+}
+
+/* About Me */
+
+/* Art */
+
+/* Footer */
+footer {
+	width: 100%;
+	font-size: 1.5rem;
+	font-weight: bold;
+	line-height: 1.4;
+	color:rgb(86, 128, 233);
+}
+
+footer p {
+	width: 200px;
+	margin: 0 auto;
+}
