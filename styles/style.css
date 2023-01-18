@@ -2,11 +2,10 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Comfortaa', cursive, Verdana, sans-serif;
-	font-size: 14px;
+	font-size: 13px;
 }
 
 /* Header */
-
 .header {
 	display: flex;
 	justify-content: space-around;
@@ -31,11 +30,14 @@
 	padding-right: 2.22rem;
 }
 
-.header li a {
+.header li a,
+.header .logo a,
+#playlist {
 	text-decoration: none;
 	color:rgb(86, 128, 233);
 }
 
+/* Section */
 section {
 	padding: 3%;
 	padding-bottom: 2.77rem;
@@ -43,25 +45,36 @@ section {
 	line-height: 1.4;
 	color:rgb(86, 128, 233);
 	padding: 5% 15%;
+	height: 50rem;
 }
 
 section p {
-	padding-bottom: 2.77rem;
+	padding: 2rem;
 	font-size: 1.5rem;
 	line-height: 1.4;
 }
 
 h2 {
-	font-size: 40px;
+	font-size: 35px;
 	font-weight: 600;
 	width: 300px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 	margin: 0 auto;
-	padding: 3%;
+	padding: 1%;
+	color:rgb(86, 128, 233);
+}
+
+h3 {
+	font-size: 15px;
+	font-weight: 600;
+	width: 200px;
+	padding: 1%;
 	color:rgb(86, 128, 233);
 }
 
 /* Welcome */
-
 #welcome {
 	display: flex;
 	flex-direction: column;
@@ -79,9 +92,39 @@ h2 {
 	font-weight: 600;
 }
 
-/* About Me */
+/* Music */
+#playlist figure img {
+	display: flex;
+	width: 300px;
+	border-radius: 50%;
+}
+
+figure {
+	width: 300px;
+	margin: 0 auto;
+}
+
+figcaption {
+	width: 100px;
+	margin: 6% auto;
+	font-weight: bold;
+}
 
 /* Art */
+#coloring-book {
+	text-decoration: none;
+}
+
+#coloring-book figure img {
+	display: flex;
+	width: 200px;
+	margin: 0 auto;
+}
+
+#coloring-book figure figcaption {
+	width: 200px;
+	color: rgb(86, 128, 233)
+}
 
 /* Footer */
 footer {
@@ -90,9 +133,10 @@ footer {
 	font-weight: bold;
 	line-height: 1.4;
 	color:rgb(86, 128, 233);
+	padding: 1% 0;
 }
 
 footer p {
-	width: 200px;
+	width: 120px;
 	margin: 0 auto;
 }
