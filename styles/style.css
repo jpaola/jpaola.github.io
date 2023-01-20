@@ -40,6 +40,18 @@
 	font-size: 17px;
 }
 
+.header li a:hover,
+.header li a:active,
+.header li a:focus,
+.header .logo a:hover,
+.header .logo a:active,
+.header .logo a:focus,
+#technology li a:hover,
+#technology li a:active,
+#technology li a:focus {
+	color: rgb(132, 206, 235);
+}
+
 /* Section */
 
 section {
