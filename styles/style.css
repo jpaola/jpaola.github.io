@@ -159,10 +159,11 @@ h3 {
 
 /* Technology */
 
-#repository figure {
+#repository {
 	width: 100px;
 	height: 100px;
 	margin: 0 auto;
+	padding: 5%;
 }
 
 #github {
