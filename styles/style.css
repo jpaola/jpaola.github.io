@@ -158,16 +158,11 @@ h3 {
 }
 
 /* Technology */
-#repository p {
-	display: inline-block;
-	padding: 10px;
-	margin: 1%;
-}
 
 #repository figure {
-	width: 40px;
-	height: 55px;
-	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
 }
 
 #github {
@@ -177,15 +172,16 @@ h3 {
 
 #github .logo {
 	padding: 3px 3px 1px 3px;
-	width: 30px;
-	height: 30px;
+	width: 100px;
+	height: 100px;
 }
 
 #github .title {
-	font-size: smaller;
+	font-size: small;
 	font-weight: bold;
 	color: rgb(86, 128, 233);
-	display: inline-block;
+	width: 50px;
+	margin: 0 auto;
 }
 
 #technology ul {
