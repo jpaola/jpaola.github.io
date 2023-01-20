@@ -3,9 +3,11 @@
 	padding: 0;
 	font-family: 'Comfortaa', cursive, Verdana, sans-serif;
 	font-size: 12px;
+	text-align: justify;
 }
 
 /* Header */
+
 .header {
 	display: flex;
 	justify-content: space-around;
@@ -38,6 +40,7 @@
 }
 
 /* Section */
+
 section {
 	padding: 10%;
 	padding-bottom: 2.77rem;
@@ -74,6 +77,7 @@ h3 {
 }
 
 /* Welcome */
+
 #welcome {
 	display: flex;
 	flex-direction: column;
@@ -91,7 +95,22 @@ h3 {
 	font-weight: 400;
 }
 
+/* About Me */
+
+code {
+	padding: 0 5px;
+	color: rgb(90, 185, 234);
+	font-family:'Source Code Pro','Courier New', Courier, monospace;
+	font-size: 17px;
+}
+
+i {
+	color: rgb(136, 96, 208);
+	font-size: 17px;
+}
+
 /* Books */
+
 #books li {
 	display: inline-block;
 	padding: 10px;
@@ -119,6 +138,7 @@ h3 {
 }
 
 /* Art */
+
 #coloring-book {
 	text-decoration: none;
 }
@@ -136,10 +156,30 @@ h3 {
 	color: rgb(86, 128, 233)
 }
 
+/* Technology */
+
+#technology ul {
+	width: 200px;
+	margin: 0 auto;
+	list-style-type: circle;
+}
+
+#technology li a {
+	text-decoration: none;
+	color: rgb(86, 128, 233);
+	font-size: 15px;
+}
+
 /* Music */
+
+#playlist {
+	display: flex;
+	align-content: center;
+}
+
 #playlist figure,
 #playlist figure img {
-	width: 300px;
+	width: 150px;
 }
 
 #playlist figure img {
@@ -149,51 +189,49 @@ h3 {
 
 #playlist figure {
 	margin: 0 auto;
+	padding: 5%;
 }
 
 #playlist figure figcaption {
-	width: 100px;
+	width: 80px;
 	margin: 6% auto;
 	font-weight: bold;
 }
 
-/* Technology */
+/* Contact */
 
-#repository {
-	width: 100px;
-	height: 100px;
+#contact #email {
+	display: flex;
 	margin: 0 auto;
-	padding: 5%;
+	width: fit-content;
+	padding: 2%;
 }
 
-#github {
-	text-decoration: none;
-	width: 10px;
+#email img {
+	width: 16px;
+	padding: 0 5px 0 0;
 }
 
-#github .logo {
-	padding: 3px 3px 1px 3px;
+#email .address {
+	display: inline-block;
+}
+
+#social-media img{
+	width: 30px;
+	height: 30px;
+}
+
+#contact ul {
 	width: 100px;
-	height: 100px;
-}
-
-#github .title {
-	font-size: small;
-	font-weight: bold;
-	color: rgb(86, 128, 233);
-	width: 50px;
 	margin: 0 auto;
+	display: flex;
 }
 
-#technology ul {
-	margin: 2%;
+#contact li {
+	display: inline-block;
+	padding: 10%;
 }
 
-#technology li a {
-	text-decoration: none;
-	color: rgb(86, 128, 233);
-	font-size: 15px;
-}
 
 /* Footer */
 footer {
@@ -206,6 +244,6 @@ footer {
 }
 
 footer p {
-	width: 120px;
+	width: 100px;
 	margin: 0 auto;
 }
