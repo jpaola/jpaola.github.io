@@ -127,7 +127,6 @@ h3 {
 }
 
 .photo {
-	overflow: hidden;
 	width: 300px;
 	height: 300px;
 	border-radius: 25%;
