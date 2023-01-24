@@ -195,6 +195,8 @@ i {
 	display: flex;
 	align-content: center;
 	text-decoration: none;
+	width: 165px;
+	margin: 0 auto;
 }
 
 #playlist figure,
