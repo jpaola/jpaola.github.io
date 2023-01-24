@@ -102,7 +102,7 @@ h3 {
 	height: 75rem;
 	background-size: cover;
 	background-image: linear-gradient(rgb(136, 96, 208), rgb(193, 200, 228),  rgb(132, 206, 235), rgb(86, 128, 233)) ;
-	color: #FFFFFF;
+	color: rgb(255, 255, 255);
 	padding: 0;
 }
 
@@ -112,6 +112,34 @@ h3 {
 }
 
 /* About Me */
+
+.image-container {
+	display: flex;
+	width: fit-content;
+	margin: 0 auto 5%;
+}
+
+.image-container figure {
+	padding: 1.11rem;
+	margin: 0 auto;
+	background-color: rgb(193, 200, 228);
+	border-radius: 10%;
+}
+
+.photo {
+	overflow: hidden;
+	width: 300px;
+	height: 300px;
+	border-radius: 25%;
+}
+
+.photo-caption {
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	font-size: 15px;
+	width: 255px;
+	margin: 0 auto;
+}
 
 code {
 	padding: 0 5px;
