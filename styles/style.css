@@ -33,11 +33,10 @@
 }
 
 .header li a,
-.header .logo a,
-#playlist {
+.header .logo a {
 	text-decoration: none;
 	color:rgb(86, 128, 233);
-	font-size: 17px;
+	font-size: 18px;
 }
 
 .header li a:hover,
@@ -126,6 +125,28 @@ i {
 	font-size: 17px;
 }
 
+/* Art */
+
+#coloring-book {
+	text-decoration: none;
+	width: 215px;
+	display: flex;
+	margin: 0 auto;
+}
+
+#coloring-book .cover {
+	display: flex;
+	width: 200px;
+	margin: 0 auto;
+}
+
+#coloring-book .title {
+	width: 200px;
+	margin: 0 auto;
+	padding: 10px;
+	color: rgb(86, 128, 233)
+}
+
 /* Books */
 
 #books li {
@@ -146,30 +167,11 @@ i {
 }
 
 #books .title {
-	width: 150px;
+	width: 100px;
 	margin: 0 auto;
 	padding: 15px;
 	font-size: smaller;
 	font-weight: bold;
-	color: rgb(86, 128, 233)
-}
-
-/* Art */
-
-#coloring-book {
-	text-decoration: none;
-}
-
-#coloring-book .cover {
-	display: flex;
-	width: 200px;
-	margin: 0 auto;
-}
-
-#coloring-book .title {
-	width: 200px;
-	margin: 0 auto;
-	padding: 10px;
 	color: rgb(86, 128, 233)
 }
 
@@ -184,7 +186,7 @@ i {
 #technology li a {
 	text-decoration: none;
 	color: rgb(86, 128, 233);
-	font-size: 15px;
+	font-size: 18px;
 }
 
 /* Music */
@@ -192,6 +194,7 @@ i {
 #playlist {
 	display: flex;
 	align-content: center;
+	text-decoration: none;
 }
 
 #playlist figure,
@@ -210,9 +213,11 @@ i {
 }
 
 #playlist figure figcaption {
-	width: 80px;
+	width: 100px;
 	margin: 6% auto;
 	font-weight: bold;
+	font-size: 15px;
+	color:rgb(86, 128, 233);
 }
 
 /* Contact */
@@ -237,6 +242,12 @@ i {
 #social-media img{
 	width: 45px;
 	height: 45px;
+}
+
+#social-media img:active,
+#social-media img:focus,
+#social-media img:hover {
+	filter: grayscale(80%)
 }
 
 #contact ul {
