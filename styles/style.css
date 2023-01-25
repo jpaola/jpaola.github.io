@@ -150,12 +150,12 @@ code {
 	padding: 0 5px;
 	color: rgb(90, 185, 234);
 	font-family:'Source Code Pro','Courier New', Courier, monospace;
-	font-size: 17px;
+	font-size: 1.5rem;
 }
 
 i {
 	color: rgb(136, 96, 208);
-	font-size: 17px;
+	font-size: 1.5rem;
 }
 
 /* Art */
