@@ -99,7 +99,7 @@ h3 {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 75rem;
+	height: 60rem;
 	background-size: cover;
 	background-image: linear-gradient(rgb(136, 96, 208), rgb(193, 200, 228),  rgb(132, 206, 235), rgb(86, 128, 233)) ;
 	color: rgb(255, 255, 255);
@@ -112,6 +112,9 @@ h3 {
 }
 
 /* About Me */
+#about-me {
+	padding: 5% 20%;
+}
 
 .image-container {
 	display: flex;
