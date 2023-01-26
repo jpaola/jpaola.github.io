@@ -22,12 +22,12 @@
 	width: 85%;
 
 	/* prevents tech logo list from scrolling over nav bar */
-	z-index: 2; 
+	z-index: 2;
 }
 
 .header .logo {
 	flex-grow: 1;
-	color:rgb(86, 128, 233);
+	color: rgb(86, 128, 233);
 }
 
 .header li {
@@ -38,7 +38,7 @@
 .header li a,
 .header .logo a {
 	text-decoration: none;
-	color:rgb(86, 128, 233);
+	color: rgb(86, 128, 233);
 	font-size: 18px;
 }
 
@@ -61,7 +61,7 @@ section {
 	padding-bottom: 2.77rem;
 	font-size: 1.5rem;
 	line-height: 1.4;
-	color:rgb(86, 128, 233);
+	color: rgb(86, 128, 233);
 	height: auto;
 }
 
@@ -80,7 +80,7 @@ h2 {
 	align-items: center;
 	margin: 0 auto;
 	padding: 1% 0;
-	color:rgb(86, 128, 233);
+	color: rgb(86, 128, 233);
 }
 
 h3 {
@@ -88,7 +88,7 @@ h3 {
 	font-weight: 600;
 	width: 300px;
 	padding: 3%;
-	color:rgb(86, 128, 233);
+	color: rgb(86, 128, 233);
 }
 
 .content {
@@ -104,7 +104,7 @@ h3 {
 	align-items: center;
 	height: 60rem;
 	background-size: cover;
-	background-image: linear-gradient(rgb(136, 96, 208), rgb(193, 200, 228),  rgb(132, 206, 235), rgb(86, 128, 233)) ;
+	background-image: linear-gradient(rgb(136, 96, 208), rgb(193, 200, 228), rgb(132, 206, 235), rgb(86, 128, 233));
 	color: rgb(255, 255, 255);
 	padding: 0;
 }
@@ -149,7 +149,7 @@ h3 {
 code {
 	padding: 0 5px;
 	color: rgb(90, 185, 234);
-	font-family:'Source Code Pro','Courier New', Courier, monospace;
+	font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
 	font-size: 1.5rem;
 }
 
@@ -252,13 +252,14 @@ i {
 	/* Position the tooltip */
 	position: absolute;
 	z-index: 1;
-	bottom: -11%; /* place tooltip at base of the logo */
+	bottom: -11%;
+	/* place tooltip at base of the logo */
 	left: 50%;
 	margin-left: -60px;
 }
 
- #logo:hover .tooltip {
-  visibility: visible;
+#logo:hover .tooltip {
+	visibility: visible;
 }
 
 /* Music */
@@ -267,7 +268,7 @@ i {
 	display: flex;
 	align-content: center;
 	text-decoration: none;
-	width: 165px;
+	width: 225px;
 	margin: 0 auto;
 }
 
@@ -290,8 +291,8 @@ i {
 	width: 100px;
 	margin: 6% auto;
 	font-weight: bold;
-	font-size: 15px;
-	color:rgb(86, 128, 233);
+	font-size: 1rem;
+	color: rgb(86, 128, 233);
 }
 
 /* Contact */
@@ -314,9 +315,13 @@ i {
 	line-height: 30px;
 }
 
-#social-media img{
+#social-media img {
 	width: 75px;
 	height: 75px;
+}
+
+#social-media .linkedin {
+	height: 65px;
 }
 
 #social-media img:active,
@@ -326,14 +331,14 @@ i {
 }
 
 #contact ul {
-	width: 250px;
+	width: 235px;
 	margin: 0 auto;
 	display: flex;
 }
 
 #contact li {
 	display: inline-block;
-	padding: 10%;
+	padding: 9%;
 }
 
 
@@ -343,7 +348,7 @@ footer {
 	font-size: 2.5rem;
 	font-weight: bold;
 	line-height: 1.4;
-	color:rgb(86, 128, 233);
+	color: rgb(86, 128, 233);
 	padding: 1% 0;
 }
 
