@@ -239,15 +239,13 @@ a {
 /* Section */
 
 section {
-	padding: 10% 20%;
-	padding-bottom: 2.77rem;
 	font-size: 1.5rem;
 	line-height: 1.4;
 	color: rgb(255, 255, 255);
 	height: 46rem;
-	margin: 0 auto;
-	padding: 5rem 26rem 0 15rem;
+	padding: 5rem 15rem;
 	overflow: scroll;
+	width: 65%;
 }
 
 section p {
@@ -338,7 +336,7 @@ i {
 
 #coloring-book {
 	text-decoration: none;
-	width: 215px;
+	width: 130px;
 	display: flex;
 	margin: 0 auto;
 }
@@ -399,14 +397,17 @@ i {
 
 #logo-list {
 	list-style: none;
-	margin: 13%;
+	margin: 10px auto;
 	background-color: rgb(232, 232, 232);
 	border-radius: 10%;
+	padding: 2rem;
+	width: 660px;
 }
 
 #logo-list li {
 	display: inline-block;
 	padding: 1%;
+	width: 63px;
 }
 
 #logo {
@@ -514,7 +515,7 @@ i {
 }
 
 #p7 #contact ul {
-	width: 20rem;
+	width: 15rem;
 	display: flex;
 	margin: 0 auto;
 }
