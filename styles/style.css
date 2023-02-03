@@ -325,9 +325,9 @@ section {
 	line-height: 1.4;
 	color: rgb(255, 255, 255);
 	height: 46rem;
-	padding: 5rem 15rem;
+	padding: 5% 10%;
 	overflow: scroll;
-	width: 65%;
+	width: 70%;
 }
 
 section p {
@@ -379,8 +379,8 @@ h3 {
 /* About Me */
 .image-container {
 	display: flex;
-	width: fit-content;
-	margin: 5% 30% 4%;
+	width: 500px;
+	margin: 0 auto;
 }
 
 .image-container figure {
