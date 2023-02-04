@@ -173,7 +173,7 @@ ul .icon:hover {
 @media screen and (max-width: 700px) {
 	#menu {
 		width: 100%;
-		max-height: 350px;
+		max-height: 50%;
 		position: absolute;
 		overflow: hidden;
 		z-index: 10;
@@ -229,7 +229,7 @@ ul .icon:hover {
 	}
 
 	#p2, #p3, #p4, #p5, #p6, #p7 {
-		left: 0;
+		left: 200%;
 	}
 
 	#page-logo {
