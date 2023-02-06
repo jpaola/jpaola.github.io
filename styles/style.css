@@ -9,6 +9,7 @@ html {
 	overflow: hidden;
 }
 
+
 body {
 	min-width: 721px;
 	min-height: 721px;
@@ -168,95 +169,6 @@ ul .icon:hover {
 	display: block;
 	padding: 5px;
 	text-decoration: none;
-}
-
-@media screen and (max-width: 700px) {
-	#menu {
-		width: 100%;
-		max-height: 50%;
-		position: absolute;
-		overflow: hidden;
-		z-index: 10;
-	}
-
-	#menu a {
-		float: left;
-	}
-
-	#p2, #p3, #p4, #p5, #p6, #p7 {
-		left: 0;
-	}
-
-
-	#page-logo {
-		padding: 20px;
-		width: 160px;
-		height: 77px;
-		margin: 0 auto;
-	}
-
-	#page-footer {
-		padding: 200px 20px;
-		width: 160px;
-		height: 77px;
-		margin: 0 auto;
-	}
-
-	.page section {
-		padding: 30rem 6rem;
-		font-size: 1.5rem;
-		line-height: 1.4;
-		color: rgb(255, 255, 255);
-	}
-
-	.ct {
-		margin-left: 0;
-	}
-
-}
-
-@media screen and (max-width: 400px) {
-
-	#menu {
-		max-height: 450px;
-		padding: 10%;
-		z-index: 10;
-	}
-
-	#menu a {
-		text-align: center;
-		float: none;
-	}
-
-	#p2, #p3, #p4, #p5, #p6, #p7 {
-		left: 200%;
-	}
-
-	#page-logo {
-		padding: 15px;
-		width: 115px;
-		height: 20px;
-		margin: 0 100px;
-	}
-
-	#page-footer {
-		width: 110px;
-		height: 20px;
-		margin: 30% 20%;
-	}
-
-	.page section {
-		padding: 30rem 6rem;
-	}
-
-	.page {
-		padding: 20% 0;
-		overflow: scroll;
-		width: 400px;
-		height: auto;
-		top: 400px;
-		text-align: center;
-	}
 }
 
 #menu .icon {
@@ -605,4 +517,84 @@ i {
 .git-logo,
 .linkedin-logo {
 	margin: 1rem;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 799px) {
+
+	.page {
+		position: fixed;
+		width: 58%;
+	}
+
+
+	.page section {
+		padding: 30rem 6rem;
+	}
+
+
+	#menu {
+		width: 38%;
+		max-height: 200px;
+		padding: 10%;
+		z-index: 10;
+		position: fixed;
+	}
+
+	#menu a {
+		display: block;
+		padding: 8px;
+		float: left;
+	}
+
+	#p2, #p3, #p4, #p5, #p6, #p7 {
+		left: 0;
+	}
+
+
+	#page-logo {
+		padding: 20px;
+		width: 115px;
+		height: 20px;
+		margin: 0 55px;
+	}
+
+	#page-footer {
+		padding: 170px 0 30px 0;
+		width: 110px;
+		height: 20px;
+		margin: 30% 20%;
+	}
+}
+
+/* Kindle Fire HDX Linux 800 x 1280 & iPad iPadOS 14.7.1 810 x 1080 */
+@media screen and (min-width: 800px) and (max-width: 810px) {
+
+	.page {
+		width: 80%;
+		position: fixed;
+	}
+
+	#home {
+		padding: 0 7rem;
+		width: 380px;
+		margin: 0 auto;
+	}
+
+	#p1 {
+		left: 200px;
+	}
+
+	#p2, #p3, #p4, #p5, #p6, #p7 {
+		left: 177%;
+	}
+
+	#logo-list {
+		width: 300px;
+	}
+
+	#page-footer {
+		padding: 300px 0 30px 0;
+	}
 }
