@@ -528,11 +528,13 @@ i {
 
 	h2 {
 		font-size: 40px;
+		width: fit-content;
 	}
 
 	.page {
 		position: fixed;
 		width: 100%;
+		overflow: scroll;
 	}
 
 	#menu {
