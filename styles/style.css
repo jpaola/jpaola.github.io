@@ -526,7 +526,6 @@ i {
 
 	section p {
 		font-size: 1.0rem;
-		height: inherit;
 	}
 
 	h2 {
@@ -559,7 +558,13 @@ i {
 		text-decoration: none;
 	}
 
-	#menu li {
+	#menu #one,
+	#menu #two,
+	#menu #three,
+	#menu #four,
+	#menu #five,
+	#menu #six,
+	#menu #seven {
 		width: 50px;
 	}
 
