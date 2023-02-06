@@ -4,15 +4,9 @@
 	padding: 0;
 }
 
-html {
+html, body {
 	height: 100vh;
 	overflow: hidden;
-}
-
-
-body {
-	min-width: 721px;
-	min-height: 721px;
 }
 
 .page {
@@ -523,49 +517,119 @@ i {
 
 @media screen and (max-width: 799px) {
 
+	section {
+		height: 100%;
+		padding: 15%;
+	}
+
+	section p {
+		font-size: 1.0rem;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+
 	.page {
 		position: fixed;
-		width: 58%;
+		width: 100%;
 	}
-
-
-	.page section {
-		padding: 30rem 6rem;
-	}
-
 
 	#menu {
-		width: 38%;
+		width: 80%;
 		max-height: 200px;
 		padding: 10%;
-		z-index: 10;
 		position: fixed;
 	}
 
 	#menu a {
 		display: block;
-		padding: 8px;
+		padding: 15px;
 		float: left;
+		text-decoration: none;
 	}
 
-	#p2, #p3, #p4, #p5, #p6, #p7 {
-		left: 0;
+	#menu li {
+		width: 50px;
 	}
-
 
 	#page-logo {
-		padding: 20px;
-		width: 115px;
+		padding: 5px;
+		width: 105px;
 		height: 20px;
-		margin: 0 55px;
+		margin: 0 auto;
 	}
 
 	#page-footer {
-		padding: 170px 0 30px 0;
-		width: 110px;
+		padding: 7px 0 7px 0;
+		width: 139px;
 		height: 20px;
-		margin: 30% 20%;
+		margin: 40% 27% 0;
 	}
+
+	#p1 {
+		top: 240px;
+		left: 0;
+	}
+
+	#p2, #p3, #p4, #p5, #p6, #p7 {
+		top: 240px;
+		left: 190%;
+	}
+
+	#home {
+		padding: 0 4rem 0;
+	}
+
+	#home h1 {
+		font-size: 5rem;
+		margin: 50%;
+		height: 5rem;
+	}
+
+	#about-me .image-container {
+		width: 160px;
+		margin: 0 auto;
+	}
+
+	#about-me .image-container figure {
+		padding: 1rem;
+		margin: 0;
+	}
+
+	#about-me .photo {
+		width: 150px;
+		height: 150px;
+	}
+
+	#about-me .photo-caption {
+		font-size: 10px;
+		width: 110px;
+		text-align: center;
+	}
+
+	#about-me code {
+		font-size: 1rem;
+	}
+
+	#art i {
+		font-size: 1rem;
+	}
+
+	#technology #logo-list {
+		padding: 1.5rem;
+		width: 216px;
+		border-radius: 0%;
+	}
+
+	#technology #sources-list {
+		width: 7rem;
+	}
+
+	#technology li a {
+		font-size: 1rem;
+	}
+
 }
 
 /* Kindle Fire HDX Linux 800 x 1280 & iPad iPadOS 14.7.1 810 x 1080 */
