@@ -546,13 +546,17 @@ i {
 
 	#menu a {
 		display: block;
-		padding: 15px;
+		padding: 10px;
 		float: left;
 		text-decoration: none;
 	}
 
 	#menu li {
 		width: 50px;
+	}
+
+	#menu .icon {
+		font-size: 25px;
 	}
 
 	#page-logo {
@@ -563,7 +567,7 @@ i {
 	}
 
 	#page-footer {
-		padding: 7px 0 7px 0;
+		padding: 17px 0;
 		width: 139px;
 		height: 20px;
 		margin: 40% 27% 0;
