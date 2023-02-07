@@ -515,6 +515,23 @@ i {
 
 /* Media Queries */
 
+/* 
+   Galaxy S10/S10+ Android 11,
+   Galaxy S20/S20+ Android 11,
+   iPhone 12/13+ Pro iOS 14.6, 
+   iPhone 12/13 mini iOS 14.6, 
+   iPhone SE 2nd gen iOS 14.6 
+*/
+@media screen and (max-width: 400px) {}
+
+/*  
+	Galaxy Note 20 Android 11,
+	Galaxy Note 20 Ultra Android 11,
+	Galaxy S20 Ultra Android 11,
+	iPhone 11 Pro iOS 14.6,
+	iPhone 11 Pro Max iOS 14.6,
+	iPhone 12/13 Pro Max iOS 14.6 
+*/
 @media screen and (max-width: 799px) {
 
 	section {
@@ -525,7 +542,8 @@ i {
 	}
 
 	section p {
-		font-size: 1.0rem;
+		font-size: 0.7rem;
+		padding: 1rem;
 	}
 
 	h2 {
@@ -536,6 +554,7 @@ i {
 	h3 {
 		font-size: 15px;
 		width: 200px;
+		padding: 0 11%;
 	}
 
 	.page {
@@ -547,15 +566,18 @@ i {
 	#menu {
 		width: 80%;
 		max-height: 200px;
-		padding: 10%;
+		padding: 4% 10% 8%;
 		position: fixed;
+		overflow: inherit;
 	}
 
 	#menu a {
 		display: block;
-		padding: 10px;
+		padding: 6% 3%;
 		float: left;
 		text-decoration: none;
+		width: 60px;
+		margin: 0 auto;
 	}
 
 	#menu #one,
@@ -565,7 +587,7 @@ i {
 	#menu #five,
 	#menu #six,
 	#menu #seven {
-		width: 50px;
+		width: 40px;
 	}
 
 	#menu .icon {
@@ -607,7 +629,7 @@ i {
 	}
 
 	#about-me .image-container {
-		width: 160px;
+		width: 180px;
 		margin: 0 auto;
 	}
 
@@ -627,12 +649,14 @@ i {
 		text-align: center;
 	}
 
-	#about-me code {
-		font-size: 1rem;
+	#about-me code,
+	#art p i {
+		font-size: 0.7rem;
 	}
 
-	#art p i {
-		font-size: 1rem;
+	#p4 #books ul {
+		margin: 10% auto;
+		width: 200px;
 	}
 
 	#books li {
@@ -650,21 +674,36 @@ i {
 
 	#technology #logo-list {
 		padding: 1.5rem;
-		width: 216px;
-		border-radius: 0%;
+		width: 175px;
+		border-radius: 0;
 	}
 
-	#technology #sources-list {
-		width: 7rem;
+	#logo .tooltip {
+		display: none;
+
+	}
+
+	#p5 #technology #logo-list li,
+	#p5 #technology #logo-list li img {
+		width: 40px;
+		padding: 3%;
+	}
+
+	#p5 #technology #sources-list,
+	#p5 #technology #sources-list li {
+		width: 11rem;
 	}
 
 	#technology li a {
-		font-size: 1rem;
+		font-size: 0.7rem;
 	}
 
 }
 
-/* Kindle Fire HDX Linux 800 x 1280 & iPad iPadOS 14.7.1 810 x 1080 */
+/*
+   Kindle Fire HDX Linux 800 x 1280 and
+   iPad iPadOS 14.7.1 810 x 1080 
+*/
 @media screen and (min-width: 800px) and (max-width: 810px) {
 
 	.page {
