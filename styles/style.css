@@ -555,7 +555,7 @@ i {
 
 	#menu {
 		width: 80%;
-		max-height: 200px;
+		max-height: 180px;
 		padding: 4% 10% 8%;
 		position: fixed;
 		overflow: inherit;
@@ -584,6 +584,7 @@ i {
 	}
 
 	#page-logo {
+		font-size: 17px;
 		padding: 5px;
 		width: 105px;
 		height: 20px;
@@ -591,20 +592,24 @@ i {
 	}
 
 	#page-footer {
+		font-size: 10px;
 		padding: 17px 0;
 		width: 139px;
 		height: 20px;
 		margin: 45% 27% 0;
 	}
 
+
 	#p1 {
-		top: 240px;
 		left: 0;
 	}
 
 	#p2, #p3, #p4, #p5, #p6, #p7 {
-		top: 240px;
 		left: 190%;
+	}
+
+	#p1, #p2, #p3, #p4, #p5, #p6, #p7 {
+		top: 225px;
 	}
 
 	#home {
@@ -796,13 +801,15 @@ i {
 	}
 
 	#p1 {
-		top: 240px;
 		left: 0;
 	}
 
 	#p2, #p3, #p4, #p5, #p6, #p7 {
-		top: 240px;
 		left: 190%;
+	}
+
+	#p1, #p2, #p3, #p4, #p5, #p6, #p7 {
+		top: 240px;
 	}
 
 	#home {
