@@ -530,7 +530,7 @@ i {
 		top: 0%;
 		padding: 10%;
 		overflow: scroll;
-		width: 76%;
+		width: 80%;
 	}
 
 	section p {
@@ -555,7 +555,7 @@ i {
 
 	#menu {
 		width: 80%;
-		max-height: 180px;
+		max-height: 185px;
 		padding: 4% 10% 8%;
 		position: fixed;
 		overflow: inherit;
@@ -565,7 +565,7 @@ i {
 		float: left;
 		text-decoration: none;
 		padding: 3% 3%;
-		width: 55px;
+		width: 54px;
 		display: block;
 	}
 
