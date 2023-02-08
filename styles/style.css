@@ -976,4 +976,13 @@ i {
 		font-size: 1rem;
 	}
 
+	#technology h4 {
+		font-size: 1.3rem;
+		margin: 3% 0;
+	}
+
+	#technology aside {
+		margin: 5% 3%;
+	}
+
 }
