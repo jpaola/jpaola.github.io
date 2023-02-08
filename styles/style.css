@@ -151,7 +151,7 @@ ul .icon:hover {
 	left: 0;
 	margin: 0;
 	padding: 0;
-	width: 200px;
+	width: 10%;
 	position: fixed;
 	height: 100%;
 	overflow: auto;
@@ -234,6 +234,17 @@ section {
 	padding: 5% 10%;
 	overflow: scroll;
 	width: 70%;
+
+	/* Hide scrollbar for IE, Edge and Firefox */
+	-ms-overflow-style: none;
+	/* IE and Edge */
+	scrollbar-width: none;
+	/* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+section::-webkit-scrollbar {
+	display: none;
 }
 
 section p {
@@ -577,7 +588,7 @@ h6 {
 
 	#menu {
 		width: 80%;
-		max-height: 185px;
+		max-height: 28%;
 		padding: 4% 10% 8%;
 		position: fixed;
 		overflow: inherit;
@@ -598,7 +609,7 @@ h6 {
 	#menu #five,
 	#menu #six,
 	#menu #seven {
-		width: 40px;
+		width: 10%;
 	}
 
 	#menu .icon {
@@ -779,7 +790,7 @@ h6 {
 
 	#menu {
 		width: 80%;
-		max-height: 200px;
+		max-height: 25%;
 		padding: 4% 10% 8%;
 		position: fixed;
 		overflow: inherit;
@@ -941,6 +952,10 @@ h6 {
 	.page {
 		width: 80%;
 		position: fixed;
+	}
+
+	#menu {
+		width: 25%;
 	}
 
 	#home {
