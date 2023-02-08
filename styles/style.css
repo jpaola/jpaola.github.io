@@ -371,6 +371,28 @@ i {
 
 /* Technology */
 
+h6 {
+	margin: 2% 0;
+}
+
+.single-gist {
+	margin: 5% 0;
+}
+
+.single-gist a {
+	color: rgb(0, 191, 255);
+}
+
+.gist-data {
+	height: 20rem;
+}
+
+#section-nav {
+	margin: 0 auto;
+	width: 100px;
+	font-size: 0.9rem;
+}
+
 #sources-list {
 	width: 19rem;
 	margin: 0 auto;
