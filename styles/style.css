@@ -544,7 +544,7 @@ i {
 
 	h3 {
 		font-size: 15px;
-		padding: 0 6%;
+		padding: 0 5%;
 	}
 
 	.page {
@@ -643,7 +643,7 @@ i {
 		text-align: center;
 	}
 
-	#about-me code,
+	#about-me .code-snippet,
 	#art p i {
 		font-size: 0.7rem;
 	}
@@ -746,7 +746,7 @@ i {
 	h3 {
 		font-size: 15px;
 		width: 200px;
-		padding: 0 11%;
+		padding: 0 5%;
 	}
 
 	.page {
@@ -899,6 +899,22 @@ i {
    iPad iPadOS 14.7.1 810 x 1080 
 */
 @media screen and (min-width: 800px) and (max-width: 810px) {
+	section {
+		width: 75%;
+	}
+
+	section p {
+		padding: 1rem;
+		font-size: 1rem;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+
+	h3 {
+		font-size: 23px;
+	}
 
 	.page {
 		width: 80%;
@@ -919,6 +935,31 @@ i {
 		left: 177%;
 	}
 
+	#about-me .code-snippet,
+	#art p i {
+		font-size: 1rem;
+	}
+
+	#about-me .photo {
+		width: 200px;
+		height: 200px;
+
+	}
+
+	#about-me .photo-caption {
+		font-size: 12px;
+		width: 202px;
+	}
+
+	#about-me .image-container {
+		width: 480px;
+	}
+
+	#about-me .image-container figure {
+		width: 202px;
+		margin: 0 auto;
+	}
+
 	#logo-list {
 		width: 300px;
 	}
@@ -926,4 +967,13 @@ i {
 	#page-footer {
 		padding: 300px 0 30px 0;
 	}
+
+	#sources-list li {
+		width: 240px;
+	}
+
+	#technology li a {
+		font-size: 1rem;
+	}
+
 }
