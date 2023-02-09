@@ -407,13 +407,20 @@ h6 {
 #sources-list {
 	width: 19rem;
 	margin: 0 auto;
-	list-style-type: circle;
+}
+
+#sources-list li {
+	width: 240px;
 }
 
 #technology li a {
 	text-decoration: none;
 	color: rgb(255, 255, 255);
-	font-size: 1.4rem;
+	font-size: 1rem;
+}
+
+#gists span {
+	font-size: 0.8rem;
 }
 
 #logo-list {
