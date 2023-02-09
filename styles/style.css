@@ -549,9 +549,8 @@ h6 {
 /* Page Footer */
 #page-footer {
 	position: fixed;
-	width: 80%;
+	width: 100%;
 	bottom: 10px;
-	margin-left: 200px;
 }
 
 #page-footer i {
