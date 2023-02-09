@@ -88,7 +88,7 @@ html, body {
 
 .icon {
 	color: rgb(255, 255, 255);
-	font-size: 32px;
+	font-size: 30px;
 	display: block;
 }
 
@@ -166,7 +166,7 @@ ul .icon:hover {
 }
 
 #menu a li {
-	padding: 5%;
+	padding: 3%;
 }
 
 a {
@@ -274,7 +274,7 @@ h3 {
 }
 
 #home h1 {
-	font-size: 8rem;
+	font-size: 3rem;
 	font-weight: 400;
 	margin: 25%;
 	display: flex;
@@ -379,7 +379,7 @@ h6 {
 }
 
 .single-gist {
-	margin: 5% 0;
+	margin-bottom: 20%;
 }
 
 .single-gist a {
@@ -412,7 +412,7 @@ h6 {
 }
 
 #gists span {
-	font-size: 0.8rem;
+	font-size: 0.6rem;
 }
 
 #logo-list {
@@ -574,12 +574,9 @@ h6 {
 @media screen and (max-width: 399px) {
 
 	article {
-		height: 23rem;
+		height: 60%;
 		position: relative;
-		top: 0%;
-		padding: 10%;
-		overflow: scroll;
-		width: 80%;
+		margin: 7% auto;
 	}
 
 	article p {
@@ -588,12 +585,22 @@ h6 {
 	}
 
 	h2 {
+		width: 150px;
 		font-size: 30px;
 	}
 
 	h3 {
 		font-size: 15px;
 		padding: 0 5%;
+	}
+
+	h4 {
+		font-size: 1rem;
+		margin: 10% 0;
+	}
+
+	h6 {
+		font-size: 0.8rem;
 	}
 
 	.page {
@@ -604,7 +611,7 @@ h6 {
 
 	#menu {
 		width: 80%;
-		max-height: 28%;
+		height: 20%;
 		padding: 4% 10% 8%;
 		position: fixed;
 		overflow: inherit;
@@ -649,7 +656,7 @@ h6 {
 	}
 
 	#p1, #p2, #p3, #p4, #p5, #p6, #p7 {
-		top: 225px;
+		top: 25%;
 	}
 
 	#home {
@@ -657,7 +664,7 @@ h6 {
 	}
 
 	#home h1 {
-		font-size: 5rem;
+		font-size: 3rem;
 		margin: 50%;
 		height: 5rem;
 	}
@@ -686,6 +693,10 @@ h6 {
 	#about-me .code-snippet,
 	#art p i {
 		font-size: 0.7rem;
+	}
+
+	#coloring-book {
+		width: 85px;
 	}
 
 	#p4 #books ul {
@@ -718,15 +729,17 @@ h6 {
 
 	}
 
-	#p5 #technology #logo-list li,
-	#p5 #technology #logo-list li img {
+	#logo-list li,
+	#logo-list li img {
 		width: 40px;
 		padding: 3%;
 	}
 
-	#p5 #technology #sources-list,
-	#p5 #technology #sources-list li {
+	#sources-list,
+	#sources-list li {
 		width: 11rem;
+		margin: 5% auto;
+		line-height: 0.3rem;
 	}
 
 	#technology li a {
@@ -754,6 +767,12 @@ h6 {
 	#email .address {
 		font-size: 13px;
 	}
+
+	/* Page Footer */
+	#page-footer {
+		width: 100%;
+		margin: 0 auto;
+	}
 }
 
 /*  
@@ -767,10 +786,9 @@ h6 {
 @media screen and (min-width: 400px) and (max-width: 799px) {
 
 	article {
-		height: 30rem;
-		padding: 3% 15% 0;
+		height: 60%;
 		position: relative;
-		top: 10%;
+		margin: 7% auto;
 	}
 
 	article p {
@@ -779,7 +797,7 @@ h6 {
 	}
 
 	h2 {
-		font-size: 40px;
+		font-size: 25px;
 		width: fit-content;
 	}
 
@@ -787,6 +805,15 @@ h6 {
 		font-size: 15px;
 		width: 200px;
 		padding: 0 5%;
+	}
+
+	h4 {
+		font-size: 1rem;
+		margin: 10% 5%;
+	}
+
+	h6 {
+		font-size: 0.8rem;
 	}
 
 	.page {
@@ -797,7 +824,7 @@ h6 {
 
 	#menu {
 		width: 80%;
-		max-height: 230px;
+		height: 20%;
 		padding: 4% 10% 8%;
 		position: fixed;
 		overflow: inherit;
@@ -842,7 +869,7 @@ h6 {
 	}
 
 	#p1, #p2, #p3, #p4, #p5, #p6, #p7 {
-		top: 240px;
+		top: 25%;
 	}
 
 	#home {
@@ -850,7 +877,7 @@ h6 {
 	}
 
 	#home h1 {
-		font-size: 5rem;
+		font-size: 3rem;
 		margin: 50%;
 		height: 5rem;
 	}
@@ -910,21 +937,28 @@ h6 {
 
 	}
 
-	#p5 #technology #logo-list li,
-	#p5 #technology #logo-list li img {
+	#logo-list li,
+	#logo-list li img {
 		width: 40px;
 		padding: 3%;
 	}
 
-	#p5 #technology #sources-list,
-	#p5 #technology #sources-list li {
+	#sources-list,
+	#sources-list li {
 		width: 11rem;
+		margin: 5% auto;
+		line-height: 0.3rem;
 	}
 
 	#technology li a {
 		font-size: 0.7rem;
 	}
 
+	/* Page Footer */
+	#page-footer {
+		width: 100%;
+		margin: 0 auto;
+	}
 }
 
 /*
@@ -934,6 +968,8 @@ h6 {
 @media screen and (min-width: 800px) and (max-width: 810px) {
 	article {
 		width: 75%;
+		height: 80%;
+		padding: 10% 10%;
 	}
 
 	article p {
@@ -956,6 +992,7 @@ h6 {
 
 	#menu {
 		width: 25%;
+		overflow: hidden;
 	}
 
 	#home {
