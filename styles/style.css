@@ -155,7 +155,7 @@ ul .icon:hover {
 
 #menu a {
 	display: block;
-	padding: 5px;
+	padding: 3%;
 	text-decoration: none;
 }
 
@@ -622,7 +622,7 @@ h6 {
 	#menu a {
 		float: left;
 		text-decoration: none;
-		padding: 3% 3%;
+		padding: 3%;
 		width: 54px;
 		display: block;
 	}
@@ -834,7 +834,7 @@ h6 {
 
 	#menu a {
 		display: block;
-		padding: 6% 3%;
+		padding: 3%;
 		float: left;
 		text-decoration: none;
 		width: 60px;
