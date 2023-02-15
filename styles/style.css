@@ -266,7 +266,7 @@ h3 {
 
 /* Home */
 #home {
-	margin: 0 5%;
+	margin: 0 10%;
 }
 
 #home h1 {
@@ -545,8 +545,9 @@ h6 {
 /* Page Footer */
 #page-footer {
 	position: fixed;
-	width: 100%;
+	width: 90%;
 	bottom: 10px;
+	left: 10%;
 }
 
 #page-footer i {
@@ -761,7 +762,7 @@ h6 {
 
 	/* Page Footer */
 	#page-footer {
-		width: 100%;
+		width: 85%;
 		margin: 0 auto;
 	}
 }
@@ -944,7 +945,7 @@ h6 {
 
 	/* Page Footer */
 	#page-footer {
-		width: 100%;
+		width: 85%;
 		margin: 0 auto;
 	}
 }
@@ -1048,8 +1049,9 @@ h6 {
 		position: fixed;
 		width: 80%;
 		bottom: 10px;
-		margin-left: 200px;
+		left: 200px;
 	}
+
 
 	#page-footer i {
 		display: block;
