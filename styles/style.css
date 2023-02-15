@@ -270,13 +270,13 @@ h3 {
 
 /* Home */
 #home {
-	padding: 0 26rem 0;
+	margin: 0 5%;
 }
 
 #home h1 {
 	font-size: 3rem;
 	font-weight: 400;
-	margin: 25%;
+	margin: 15% auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -658,10 +658,6 @@ h6 {
 		top: 25%;
 	}
 
-	#home {
-		padding: 0 4rem 0;
-	}
-
 	#home h1 {
 		font-size: 3rem;
 		margin: 50%;
@@ -869,10 +865,6 @@ h6 {
 
 	#p1, #p2, #p3, #p4, #p5, #p6, #p7 {
 		top: 25%;
-	}
-
-	#home {
-		padding: 0 4rem 0;
 	}
 
 	#home h1 {
