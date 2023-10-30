@@ -9,6 +9,10 @@ html, body {
 	overflow: hidden;
 }
 
+section {
+	margin: 200px 0px;
+}
+
 /* Page */
 .page {
 	position: absolute;
@@ -386,6 +390,40 @@ h6 {
 	height: 20rem;
 }
 
+.project-title {
+	width: 150px;
+	margin: 20px auto;
+}
+
+.project-screenshot {
+	width: 800px;
+	height: 450px;
+	border-radius: 2%;
+}
+
+#project-memory-game-figure-wrapper {
+	margin: 0 auto;
+	width: 800px;
+}
+
+#project-link-section {
+	width: 150px;
+	margin: 0 auto;
+}
+
+#project-link-section ul li {
+	margin: 15px;
+}
+
+#project-link-section ul li,
+#project-link-section #logo img {
+	width: 35px;
+}
+
+#project-link-section #logo .tooltip {
+	bottom: -90%;
+}
+
 #article-nav {
 	margin: 0 auto;
 	width: 100px;
@@ -408,14 +446,13 @@ h6 {
 }
 
 #gists span {
-	font-size: 0.6rem;
+	font-size: 0.9rem;
 }
 
 #logo-list {
 	list-style: none;
 	margin: 10px auto;
 	background-color: rgb(232, 232, 232);
-	border-radius: 10%;
 	padding: 2rem;
 	width: 660px;
 }
@@ -512,12 +549,8 @@ h6 {
 }
 
 #social-media img {
-	width: 75px;
-	height: 75px;
-}
-
-#social-media .linkedin {
-	height: 65px;
+	width: 50px;
+	height: 50px;
 }
 
 #social-media img:active,
@@ -527,20 +560,22 @@ h6 {
 }
 
 #p7 #contact li {
-	display: inline-block;
+	display: inline-table;
+	margin: 10px auto;
+	width: 50px;
+	height: 50px;
 }
 
 #p7 #contact ul {
-	width: 15rem;
-	display: flex;
+	width: 250px;
 	margin: 0 auto;
 }
 
 .git-logo,
-.linkedin-logo {
-	margin: 1rem;
+.linkedin-logo,
+.amazon-web-store-logo {
+	margin: 10px;
 }
-
 
 /* Page Footer */
 #page-footer {
@@ -604,6 +639,18 @@ h6 {
 		position: fixed;
 		width: 100%;
 		overflow: scroll;
+	}
+
+	.project-screenshot {
+		width: 275px;
+		height: 150px;
+	}
+
+
+	.git-logo,
+	.linkedin-logo,
+	.amazon-web-store-logo {
+		margin: unset;
 	}
 
 	#menu {
@@ -745,20 +792,40 @@ h6 {
 	}
 
 	#p7 #contact ul {
-		width: 12rem;
+		width: 150px;
+		margin: 20px auto;
+	}
+
+	#p7 #contact li {
+		margin: 0 auto;
+		width: 30px;
+		height: 30px;
 	}
 
 	#social-media img {
-		width: 55px;
-		height: 55px;
-	}
-
-	#social-media .linkedin {
-		height: 55px;
+		width: 30px;
+		height: 30px;
 	}
 
 	#email .address {
 		font-size: 13px;
+	}
+
+	#project-memory-game-figure-wrapper {
+		width: 270px;
+	}
+
+	#project-link-section {
+		width: 116px;
+	}
+
+	#project-link-section ul li {
+		margin: 10px;
+	}
+
+	#project-link-section ul li,
+	#project-link-section #logo img {
+		width: 25px;
 	}
 
 	/* Page Footer */
@@ -813,6 +880,11 @@ h6 {
 		position: fixed;
 		width: 100%;
 		overflow: scroll;
+	}
+
+	.project-screenshot {
+		width: 300px;
+		height: 150px;
 	}
 
 	#menu {
@@ -942,6 +1014,19 @@ h6 {
 
 	#technology li a {
 		font-size: 0.7rem;
+	}
+
+	#project-memory-game-figure-wrapper {
+		width: 300px;
+	}
+
+	#project-link-section {
+		width: 125px;
+	}
+
+	#project-link-section ul li,
+	#project-link-section #logo img {
+		width: 25px;
 	}
 
 	/* Page Footer */
