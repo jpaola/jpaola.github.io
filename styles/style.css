@@ -641,6 +641,11 @@ h6 {
 		overflow: scroll;
 	}
 
+	.project-title {
+		width: 110px;
+		font-size: 14px;
+	}
+
 	.project-screenshot {
 		width: 275px;
 		height: 150px;
@@ -882,6 +887,11 @@ h6 {
 		overflow: scroll;
 	}
 
+	.project-title {
+		width: 120px;
+		font-size: 14px;
+	}
+
 	.project-screenshot {
 		width: 300px;
 		height: 150px;
@@ -1065,6 +1075,17 @@ h6 {
 		position: fixed;
 	}
 
+	.project-title {
+		width: 100px;
+		margin: 20px auto;
+		font-size: 13px;
+	}
+
+	.project-screenshot {
+		width: 450px;
+		height: 250px;
+	}
+
 	#menu {
 		width: 25%;
 		overflow: hidden;
@@ -1126,8 +1147,8 @@ h6 {
 		margin: 3% 0;
 	}
 
-	#technology section {
-		margin: 5% 3%;
+	#project-memory-game-figure-wrapper {
+		width: 450px;
 	}
 
 	/* Page Footer */
@@ -1137,7 +1158,6 @@ h6 {
 		bottom: 10px;
 		left: 200px;
 	}
-
 
 	#page-footer i {
 		display: block;
