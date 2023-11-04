@@ -670,7 +670,7 @@ h6 {
 	}
 
 	.project-title {
-		width: 110px;
+		width: 155px;
 		font-size: 14px;
 	}
 
@@ -811,7 +811,7 @@ h6 {
 
 	#sources-list,
 	#sources-list li {
-		width: 11rem;
+		width: 12rem;
 		margin: 5% auto;
 		line-height: 0.3rem;
 	}
@@ -923,7 +923,7 @@ h6 {
 	}
 
 	.project-title {
-		width: 120px;
+		width: 155px;
 		font-size: 14px;
 	}
 
@@ -1053,7 +1053,7 @@ h6 {
 
 	#sources-list,
 	#sources-list li {
-		width: 11rem;
+		width: 12rem;
 		margin: 5% auto;
 		line-height: 0.3rem;
 	}
@@ -1133,7 +1133,7 @@ h6 {
 	}
 
 	.project-title {
-		width: 100px;
+		width: 145px;
 		margin: 20px auto;
 		font-size: 13px;
 	}
@@ -1192,7 +1192,7 @@ h6 {
 	}
 
 	#sources-list li {
-		width: 240px;
+		width: 260px;
 	}
 
 	#technology li a {
@@ -1201,7 +1201,7 @@ h6 {
 
 	#technology h4 {
 		font-size: 1.3rem;
-		margin: 3% 0;
+		margin: 10% auto;
 	}
 
 	#project-memory-game-figure-wrapper {
