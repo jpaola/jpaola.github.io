@@ -9,8 +9,14 @@ html, body {
 	overflow: hidden;
 }
 
+body {
+	min-width: 800px;
+	width: auto !important;
+	width: 800px;
+}
+
 section {
-	margin: 200px 0px;
+	margin: 20% 0;
 }
 
 /* Page */
@@ -19,7 +25,7 @@ section {
 	width: 100%;
 	height: 100%;
 	margin: 0;
-	padding: 4% 0;
+	padding: 5% 0;
 	transition: all .8s cubic-bezier(0.54, 0.35, 0.29, 0.99);
 	-webkit-transition: all .8s cubic-bezier(0.54, 0.35, 0.29, 0.99);
 	-moz-transition: all .8s cubic-bezier(0.54, 0.35, 0.29, 0.99);
@@ -27,40 +33,40 @@ section {
 	color: rgb(255, 255, 255);
 }
 
-#p1 {
-	left: 0;
-}
-
-#p2, #p3, #p4, #p5, #p6, #p7 {
-	left: 200%;
+#p2, #p3, #p4, #p5, #p6, #p7, #p8 {
+	left: 190%;
 }
 
 #p1 {
-	background: rgb(0, 0, 41);
+	background: rgba(10, 10, 15);
 }
 
 #p2 {
-	background: rgb(0, 36, 0);
+	background: rgb(0, 15, 0);
 }
 
 #p3 {
-	background: rgb(36, 0, 0);
+	background: rgb(15, 0, 15);
 }
 
 #p4 {
-	background: rgb(18, 18, 0);
+	background: rgb(5, 15, 15);
 }
 
 #p5 {
-	background: rgb(55, 0, 55);
+	background: rgb(10, 0, 15);
 }
 
 #p6 {
-	background: rgb(0, 27, 27);
+	background: rgb(0, 0, 20);
 }
 
 #p7 {
-	background: rgb(41, 24, 41);
+	background: rgb(15, 15, 15);
+}
+
+#p8 {
+	background: rgb(15, 5, 5);
 }
 
 /* Transitions */
@@ -68,8 +74,9 @@ section {
 #art:target #p3,
 #books:target #p4,
 #technology:target #p5,
-#music:target #p6,
-#contact:target #p7 {
+#projects:target #p6,
+#music:target #p7,
+#contact:target #p8 {
 	transform: translateX(-190%);
 	-webkit-transform: translateX(-190%);
 	-moz-transform: translateX(-190%);
@@ -81,6 +88,7 @@ section {
 #art:target #p1 #home,
 #books:target #p1 #home,
 #technology:target #p1 #home,
+#projects:target #p1 #home,
 #music:target #p1 #home,
 #contact:target #p1 #home {
 	filter: blur(10px)
@@ -104,6 +112,7 @@ ul .icon:hover {
 #art:target ul .icon,
 #books:target ul .icon,
 #technology:target ul .icon,
+#projects:target ul .icon,
 #music:target ul .icon,
 #contact:target ul .icon {
 	transform: scale(.6);
@@ -117,8 +126,9 @@ ul .icon:hover {
 #art:target #three,
 #books:target #four,
 #technology:target #five,
-#music:target #six,
-#contact:target #seven {
+#projects:target #six,
+#music:target #seven,
+#contact:target #eight {
 	transform: scale(1.5) !important;
 	-webkit-transform: scale(1.5) !important;
 	-moz-transform: scale(1.5) !important;
@@ -207,8 +217,9 @@ a {
 #art:target .page#p3 .icon,
 #books:target .page#p4 .icon,
 #technology:target .page#p5 .icon,
-#music:target .page#p6 .icon,
-#contact:target .page#p7 .icon {
+#projects:target .page#p6 .icon,
+#music:target .page#p7 .icon,
+#contact:target .page#p8 .icon {
 	transform: translateX(0) !important;
 	-webkit-transform: translateX(0) !important;
 	-moz-transform: translateX(0) !important;
@@ -222,11 +233,10 @@ article {
 	font-size: 1.5rem;
 	line-height: 1.4;
 	color: rgb(255, 255, 255);
-	height: 40rem;
-	padding: 5% 10%;
+	height: 85%;
+	padding: 0 5%;
 	overflow: scroll;
-	width: 70%;
-
+	margin: 0 0 0 200px;
 	/* Hide scrollbar for IE, Edge and Firefox */
 	-ms-overflow-style: none;
 	/* IE and Edge */
@@ -265,23 +275,31 @@ h3 {
 	width: 300px;
 	padding: 3%;
 	color: rgb(255, 255, 255);
+	margin: 30px auto;
+	display: flex;
+	justify-content: center;
+}
 
+h4 {
+	width: 300px;
+	margin: 20px auto;
+	display: flex;
+	justify-content: center;
 }
 
 /* Home */
 #home {
-	margin: 0 10%;
+	display: flex;
 }
 
 #home h1 {
 	font-size: 3rem;
 	font-weight: 400;
-	margin: 15% auto;
+	margin: 10% auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 13rem;
 	padding: 0;
 }
 
@@ -301,6 +319,7 @@ h3 {
 	width: 300px;
 	height: 300px;
 	border-radius: 25%;
+	opacity: 0.8;
 }
 
 .photo-caption {
@@ -391,7 +410,7 @@ h6 {
 }
 
 .project-title {
-	width: 155px;
+	width: 220px;
 	margin: 20px auto;
 }
 
@@ -431,17 +450,19 @@ h6 {
 }
 
 #sources-list {
-	width: 19rem;
+	width: 220px;
 	margin: 0 auto;
+	list-style: inside;
 }
 
 #sources-list li {
-	width: 240px;
+	width: 260px;
+	display: list-item;
 }
 
 #technology li a {
 	text-decoration: none;
-	color: rgb(255, 255, 255);
+	color: rgb(25, 169, 247);
 	font-size: 1rem;
 }
 
@@ -451,10 +472,10 @@ h6 {
 
 #logo-list {
 	list-style: none;
-	margin: 10px auto;
-	background-color: rgb(232, 232, 232);
-	padding: 2rem;
-	width: 660px;
+	margin: 0 auto;
+	background-color: rgb(232, 232, 232, 0.9);
+	width: 565px;
+	padding: 5%;
 }
 
 #logo-list li {
@@ -559,16 +580,16 @@ h6 {
 	filter: grayscale(80%)
 }
 
-#p7 #contact li {
+#contact-options {
+	width: 250px;
+	margin: 0 auto;
+}
+
+#contact-options li {
 	display: inline-table;
 	margin: 10px auto;
 	width: 50px;
 	height: 50px;
-}
-
-#p7 #contact ul {
-	width: 250px;
-	margin: 0 auto;
 }
 
 .git-logo,
@@ -580,17 +601,19 @@ h6 {
 /* Page Footer */
 #page-footer {
 	position: fixed;
-	width: 90%;
-	bottom: 10px;
-	left: 10%;
+	width: 200px;
+	bottom: 0;
+	height: 20px;
+	margin: 0 auto;
+	left: 50%;
 }
 
 #page-footer i {
 	display: block;
 	font-size: 12px;
 	color: rgb(255, 255, 255);
-	margin: 0 auto;
 	text-align: center;
+	height: inherit;
 }
 
 /* Media Queries */
@@ -603,6 +626,11 @@ h6 {
    iPhone SE 2nd gen iOS 14.6 
 */
 @media screen and (max-width: 399px) {
+	body {
+		min-width: 360px;
+		width: auto !important;
+		width: 360px;
+	}
 
 	article {
 		height: 60%;
@@ -680,7 +708,8 @@ h6 {
 	#menu #four,
 	#menu #five,
 	#menu #six,
-	#menu #seven {
+	#menu #seven,
+	#menu #eight {
 		width: 10%;
 	}
 
@@ -700,18 +729,18 @@ h6 {
 		left: 0;
 	}
 
-	#p2, #p3, #p4, #p5, #p6, #p7 {
+	#p2, #p3, #p4, #p5, #p6, #p7, #p8 {
 		left: 190%;
 	}
 
-	#p1, #p2, #p3, #p4, #p5, #p6, #p7 {
-		top: 25%;
+	#p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8 {
+		top: 23%;
 	}
 
 	#home h1 {
 		font-size: 3rem;
-		margin: 50%;
-		height: 5rem;
+		margin: auto;
+		height: 2rem;
 	}
 
 	#about-me .image-container {
@@ -796,12 +825,12 @@ h6 {
 		width: 130px;
 	}
 
-	#p7 #contact ul {
+	#contact-options {
 		width: 150px;
 		margin: 20px auto;
 	}
 
-	#p7 #contact li {
+	#contact-options li {
 		margin: 0 auto;
 		width: 30px;
 		height: 30px;
@@ -835,8 +864,9 @@ h6 {
 
 	/* Page Footer */
 	#page-footer {
-		width: 85%;
+		width: 100%;
 		margin: 0 auto;
+		left: unset;
 	}
 }
 
@@ -849,6 +879,11 @@ h6 {
 	iPhone 12/13 Pro Max iOS 14.6 
 */
 @media screen and (min-width: 400px) and (max-width: 799px) {
+	body {
+		min-width: 400px;
+		width: auto !important;
+		width: 400px;
+	}
 
 	article {
 		height: 60%;
@@ -921,7 +956,8 @@ h6 {
 	#menu #four,
 	#menu #five,
 	#menu #six,
-	#menu #seven {
+	#menu #seven,
+	#menu #eight {
 		width: 40px;
 	}
 
@@ -940,18 +976,18 @@ h6 {
 		left: 0;
 	}
 
-	#p2, #p3, #p4, #p5, #p6, #p7 {
+	#p2, #p3, #p4, #p5, #p6, #p7, #p8 {
 		left: 190%;
 	}
 
-	#p1, #p2, #p3, #p4, #p5, #p6, #p7 {
+	#p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8 {
 		top: 25%;
 	}
 
 	#home h1 {
 		font-size: 3rem;
-		margin: 50%;
-		height: 5rem;
+		margin: auto;
+		height: 2rem;
 	}
 
 	#about-me .image-container {
@@ -1039,10 +1075,24 @@ h6 {
 		width: 25px;
 	}
 
+	#contact-options {
+		width: 210px;
+	}
+
+	#contact-options li {
+		width: 60px;
+	}
+
+	#social-media img {
+		width: 40px;
+		height: 40px;
+	}
+
 	/* Page Footer */
 	#page-footer {
-		width: 85%;
+		width: 100%;
 		margin: 0 auto;
+		left: unset;
 	}
 }
 
@@ -1051,10 +1101,17 @@ h6 {
    iPad iPadOS 14.7.1 810 x 1080 
 */
 @media screen and (min-width: 800px) and (max-width: 810px) {
+	body {
+		min-width: 800px;
+		width: auto !important;
+		width: 800px;
+	}
+
 	article {
 		width: 75%;
 		height: 80%;
 		padding: 10% 10%;
+		margin: unset;
 	}
 
 	article p {
@@ -1101,7 +1158,7 @@ h6 {
 		left: 200px;
 	}
 
-	#p2, #p3, #p4, #p5, #p6, #p7 {
+	#p2, #p3, #p4, #p5, #p6, #p7, #p8 {
 		left: 177%;
 	}
 
@@ -1157,6 +1214,7 @@ h6 {
 		width: 80%;
 		bottom: 10px;
 		left: 200px;
+		margin: 0 auto;
 	}
 
 	#page-footer i {
@@ -1166,5 +1224,4 @@ h6 {
 		margin: 0 auto;
 		text-align: center;
 	}
-
 }
