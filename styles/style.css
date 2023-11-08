@@ -38,35 +38,35 @@ section {
 }
 
 #p1 {
-	background: rgba(10, 10, 15);
+	background: rgb(16, 16, 24);
 }
 
 #p2 {
-	background: rgb(0, 15, 0);
+	background: rgb(16, 33, 16);
 }
 
 #p3 {
-	background: rgb(15, 0, 15);
+	background: rgb(28, 0, 28);
 }
 
 #p4 {
-	background: rgb(5, 15, 15);
+	background: rgb(10, 29, 29);
 }
 
 #p5 {
-	background: rgb(10, 0, 15);
+	background: rgb(14, 47, 66);
 }
 
 #p6 {
-	background: rgb(0, 0, 20);
+	background: rgb(2, 2, 44);
 }
 
 #p7 {
-	background: rgb(15, 15, 15);
+	background: rgb(26, 26, 26);
 }
 
 #p8 {
-	background: rgb(15, 5, 5);
+	background: rgb(26, 9, 9);
 }
 
 /* Transitions */
