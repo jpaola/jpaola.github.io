@@ -565,6 +565,18 @@ h6 {
 	padding: 2%;
 }
 
+#contact-p1 {
+	width: fit-content;
+	margin: auto;
+	padding: 5% 0 1%;
+}
+
+#contact-p2 {
+	width: fit-content;
+	margin: auto;
+	padding: 0 0 5%;
+}
+
 #email img {
 	width: 30px;
 	padding: 0 5px 0 0;
@@ -572,7 +584,7 @@ h6 {
 
 #email .address {
 	display: inline-block;
-	font-size: 16px;
+	font-size: 25px;
 	line-height: 30px;
 }
 
