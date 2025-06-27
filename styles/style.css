@@ -4,7 +4,8 @@
 	padding: 0;
 }
 
-html, body {
+html,
+body {
 	height: 100vh;
 	overflow: hidden;
 }
@@ -33,7 +34,13 @@ section {
 	color: rgb(255, 255, 255);
 }
 
-#p2, #p3, #p4, #p5, #p6, #p7, #p8 {
+#p2,
+#p3,
+#p4,
+#p5,
+#p6,
+#p7,
+#p8 {
 	left: 190%;
 }
 
@@ -259,7 +266,7 @@ article p {
 h2 {
 	font-size: 50px;
 	font-weight: 600;
-	width: 300px;
+	width: 560px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -644,8 +651,8 @@ h6 {
 	}
 
 	h2 {
-		width: 150px;
-		font-size: 25px;
+		width: 225px;
+		font-size: 20px;
 	}
 
 	h3 {
@@ -729,11 +736,24 @@ h6 {
 		left: 0;
 	}
 
-	#p2, #p3, #p4, #p5, #p6, #p7, #p8 {
+	#p2,
+	#p3,
+	#p4,
+	#p5,
+	#p6,
+	#p7,
+	#p8 {
 		left: 190%;
 	}
 
-	#p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8 {
+	#p1,
+	#p2,
+	#p3,
+	#p4,
+	#p5,
+	#p6,
+	#p7,
+	#p8 {
 		top: 23%;
 	}
 
@@ -976,11 +996,24 @@ h6 {
 		left: 0;
 	}
 
-	#p2, #p3, #p4, #p5, #p6, #p7, #p8 {
+	#p2,
+	#p3,
+	#p4,
+	#p5,
+	#p6,
+	#p7,
+	#p8 {
 		left: 190%;
 	}
 
-	#p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8 {
+	#p1,
+	#p2,
+	#p3,
+	#p4,
+	#p5,
+	#p6,
+	#p7,
+	#p8 {
 		top: 25%;
 	}
 
@@ -1120,7 +1153,8 @@ h6 {
 	}
 
 	h2 {
-		font-size: 40px;
+		font-size: 30px;
+		width: auto;
 	}
 
 	h3 {
@@ -1158,7 +1192,13 @@ h6 {
 		left: 200px;
 	}
 
-	#p2, #p3, #p4, #p5, #p6, #p7, #p8 {
+	#p2,
+	#p3,
+	#p4,
+	#p5,
+	#p6,
+	#p7,
+	#p8 {
 		left: 177%;
 	}
 
