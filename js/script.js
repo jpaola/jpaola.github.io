@@ -11,14 +11,12 @@ document.addEventListener("DOMContentLoaded", () => {
         return array[Math.floor(Math.random() * array.length)];
     }
 
-    // Try fetching from ZenQuotes API
-    fetch("https://zenquotes.io/api/random")
+    // Fetch a random quote from Quotable
+    fetch("https://api.quotable.io/random")
         .then(response => response.json())
         .then(data => {
-            const quote = data[0].q;
-            const author = data[0].a;
-            document.getElementById("quote-text").textContent = `"${quote}"`;
-            document.getElementById("quote-author").textContent = `– ${author}`;
+            document.getElementById("quote-text").textContent = `"${data.content}"`;
+            document.getElementById("quote-author").textContent = `– ${data.author}`;
         })
         .catch(error => {
             console.warn("API failed, using local quotes.", error);
