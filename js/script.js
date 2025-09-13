@@ -1,50 +1,71 @@
-// Wait until the DOM is fully loaded
-document.addEventListener("DOMContentLoaded", async () => {
-    // ------------------------------
-    // Local fallback quotes
-    // ------------------------------
-    const fallbackQuotes = [
-        { q: "The only way to do great work is to love what you do.", a: "Steve Jobs" },
-        { q: "Success is not final, failure is not fatal: It is the courage to continue that counts.", a: "Winston Churchill" },
-        { q: "Life is what happens when you're busy making other plans.", a: "John Lennon" }
-    ];
+let quotes = []; // Array to hold all loaded quotes
 
+/**
+ * Loads all quotes from the local JSON file.
+ */
+async function loadQuotes() {
     try {
-        // ------------------------------
-        // Fetch a random quote from Quotable
-        // ------------------------------
-        const response = await fetch("https://api.quotable.io/random");
-
-        if (!response.ok) throw new Error(`Network response not ok: ${response.status}`);
-
-        const data = await response.json();
-
-        // ------------------------------
-        // Update the page with the fetched quote
-        // ------------------------------
-        const quoteText = document.getElementById("quote-text");
-        const quoteAuthor = document.getElementById("quote-author");
-
-        if (quoteText && quoteAuthor) {
-            quoteText.textContent = `"${data.content}"`;
-            quoteAuthor.textContent = `– ${data.author}`;
-        } else {
-            console.warn("Quote elements not found, using fallback.");
-            throw new Error("DOM elements missing");
-        }
+        const response = await fetch("json/curated-quotes.json");
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        quotes = await response.json();
     } catch (error) {
-        // ------------------------------
-        // Use a random local quote if fetch fails
-        // ------------------------------
-        console.warn("API failed, using fallback quotes.", error);
-        const localQuote = fallbackQuotes[Math.floor(Math.random() * fallbackQuotes.length)];
-
-        const quoteText = document.getElementById("quote-text");
-        const quoteAuthor = document.getElementById("quote-author");
-
-        if (quoteText && quoteAuthor) {
-            quoteText.textContent = `"${localQuote.q}"`;
-            quoteAuthor.textContent = `– ${localQuote.a}`;
-        }
+        console.warn("Failed to load local quotes. Using a default fallback quote.", error);
+        quotes = [{ q: "The only way to do great work is to love what you do.", a: "Steve Jobs" }];
     }
+}
+
+/**
+ * Returns a random quote from the loaded quotes array.
+ * Ensures the same quote doesn't repeat consecutively.
+ */
+let lastIndex = -1;
+function getRandomQuote() {
+    if (quotes.length === 0) return { q: "", a: "" };
+    let randomIndex;
+    do {
+        randomIndex = Math.floor(Math.random() * quotes.length);
+    } while (randomIndex === lastIndex && quotes.length > 1);
+    lastIndex = randomIndex;
+    return quotes[randomIndex];
+}
+
+/**
+ * Updates the DOM with a given quote using fade-out and fade-in animation.
+ * @param {{q: string, a: string}} quote
+ */
+function displayQuote(quote) {
+    const quoteText = document.getElementById("quote-text");
+    const quoteAuthor = document.getElementById("quote-author");
+
+    if (!quoteText || !quoteAuthor) {
+        console.warn("Quote elements not found in DOM.");
+        return;
+    }
+
+    // Fade out
+    quoteText.style.opacity = 0;
+    quoteAuthor.style.opacity = 0;
+
+    setTimeout(() => {
+        // Update text
+        quoteText.textContent = `"${quote.q}"`;
+        quoteAuthor.textContent = `– ${quote.a}`;
+
+        // Fade in
+        quoteText.style.opacity = 1;
+        quoteAuthor.style.opacity = 1;
+    }, 500); // Duration of fade-out in ms
+}
+
+// Initialize once DOM is loaded
+document.addEventListener("DOMContentLoaded", async () => {
+    await loadQuotes();
+
+    // Initial quote
+    displayQuote(getRandomQuote());
+
+    // Update the quote every 5 minutes (300,000 ms)
+    setInterval(() => {
+        displayQuote(getRandomQuote());
+    }, 300000);
 });

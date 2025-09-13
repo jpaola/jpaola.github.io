@@ -338,6 +338,11 @@ h4 {
 	color: #555;
 }
 
+#quote-text,
+#quote-author {
+	transition: opacity 0.5s ease-in-out;
+}
+
 /* About Me */
 .image-container {
 	display: flex;
