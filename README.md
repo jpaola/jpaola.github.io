@@ -95,7 +95,7 @@ To keep the site fast and GitHub pushes smooth, all images should be optimized b
 I’d love to hear any suggestions, ideas, or feedback:
 
 - GitHub Issues or Pull Requests welcome  
-- You can reach me via email: *your.email@example.com*
+- You can reach me via email: *itsmejpaola@gmail.com*
 
 ---
 
