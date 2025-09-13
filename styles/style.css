@@ -310,6 +310,34 @@ h4 {
 	padding: 0;
 }
 
+/* Center the quote container in the page */
+#quote-container {
+	display: flex;
+	flex-direction: column;
+	/* Stack text vertically */
+	justify-content: center;
+	/* Vertical centering inside container */
+	align-items: center;
+	/* Horizontal centering inside container */
+	text-align: center;
+	min-height: 60vh;
+	/* Takes at least 60% of viewport height */
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#quote-text {
+	font-size: 1.8em;
+	/* Larger text for landing page */
+	font-style: italic;
+	margin-bottom: 10px;
+}
+
+#quote-author {
+	font-size: 1.2em;
+	color: #555;
+}
+
 /* About Me */
 .image-container {
 	display: flex;
@@ -775,6 +803,11 @@ h6 {
 		height: 2rem;
 	}
 
+	#quote-text,
+	#quote-author {
+		font-size: 0.8em;
+	}
+
 	#about-me .image-container {
 		width: 180px;
 		margin: 0 auto;
@@ -1035,6 +1068,11 @@ h6 {
 		height: 2rem;
 	}
 
+	#quote-text,
+	#quote-author {
+		font-size: 0.8em;
+	}
+
 	#about-me .image-container {
 		width: 180px;
 		margin: 0 auto;
@@ -1198,6 +1236,11 @@ h6 {
 		padding: 0 7rem;
 		width: 380px;
 		margin: 0 auto;
+	}
+
+	#quote-text,
+	#quote-author {
+		font-size: 1em;
 	}
 
 	#p1 {
