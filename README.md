@@ -1,6 +1,7 @@
 # jpaola.github.io
 
 Welcome to the repository for my personal website!  
+
 This site is built using semantic HTML, SCSS/Less/CSS, and minimal dependencies — just the essentials.  
 
 ---
