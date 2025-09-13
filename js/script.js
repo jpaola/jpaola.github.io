@@ -1,4 +1,5 @@
-let quotes = []; // Array to hold all loaded quotes
+let quotes = [];       // All loaded quotes
+let quoteQueue = [];   // Shuffled quotes queue
 
 /**
  * Loads all quotes from the local JSON file.
@@ -8,29 +9,39 @@ async function loadQuotes() {
         const response = await fetch("json/curated-quotes.json");
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         quotes = await response.json();
+        console.log("Quotes loaded successfully:", quotes.length);
+
+        // Initialize the queue
+        shuffleQuotes();
     } catch (error) {
-        console.warn("Failed to load local quotes. Using a default fallback quote.", error);
+        console.warn("Failed to load local quotes. Using fallback:", error);
         quotes = [{ q: "The only way to do great work is to love what you do.", a: "Steve Jobs" }];
+        shuffleQuotes();
     }
 }
 
 /**
- * Returns a random quote from the loaded quotes array.
- * Ensures the same quote doesn't repeat consecutively.
+ * Shuffles the quotes and stores them in the queue
  */
-let lastIndex = -1;
-function getRandomQuote() {
-    if (quotes.length === 0) return { q: "", a: "" };
-    let randomIndex;
-    do {
-        randomIndex = Math.floor(Math.random() * quotes.length);
-    } while (randomIndex === lastIndex && quotes.length > 1);
-    lastIndex = randomIndex;
-    return quotes[randomIndex];
+function shuffleQuotes() {
+    quoteQueue = [...quotes];
+    for (let i = quoteQueue.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [quoteQueue[i], quoteQueue[j]] = [quoteQueue[j], quoteQueue[i]];
+    }
 }
 
 /**
- * Updates the DOM with a given quote using fade-out and fade-in animation.
+ * Returns the next quote from the queue.
+ * Reshuffles when the queue is empty.
+ */
+function getNextQuote() {
+    if (quoteQueue.length === 0) shuffleQuotes();
+    return quoteQueue.shift();
+}
+
+/**
+ * Updates the DOM with a given quote using slide + fade transitions.
  * @param {{q: string, a: string}} quote
  */
 function displayQuote(quote) {
@@ -42,30 +53,47 @@ function displayQuote(quote) {
         return;
     }
 
-    // Fade out
+    // Slide out & fade out current quote
+    quoteText.style.transition = "opacity 0.5s ease, transform 0.5s ease";
+    quoteAuthor.style.transition = "opacity 0.5s ease, transform 0.5s ease";
     quoteText.style.opacity = 0;
     quoteAuthor.style.opacity = 0;
+    quoteText.style.transform = "translateX(30px)";
+    quoteAuthor.style.transform = "translateX(30px)";
 
+    // After fade-out completes, update text and slide in
     setTimeout(() => {
-        // Update text
         quoteText.textContent = `"${quote.q}"`;
         quoteAuthor.textContent = `– ${quote.a}`;
 
-        // Fade in
+        // Reset position for slide-in
+        quoteText.style.transform = "translateX(-30px)";
+        quoteAuthor.style.transform = "translateX(-30px)";
+
+        // Trigger reflow
+        void quoteText.offsetWidth;
+
+        // Fade in and slide to normal position
+        quoteText.style.transition = "opacity 0.7s ease, transform 0.7s ease";
+        quoteAuthor.style.transition = "opacity 0.7s ease, transform 0.7s ease";
         quoteText.style.opacity = 1;
         quoteAuthor.style.opacity = 1;
-    }, 500); // Duration of fade-out in ms
+        quoteText.style.transform = "translateX(0)";
+        quoteAuthor.style.transform = "translateX(0)";
+    }, 500); // matches fade-out duration
 }
 
 // Initialize once DOM is loaded
 document.addEventListener("DOMContentLoaded", async () => {
     await loadQuotes();
 
-    // Initial quote
-    displayQuote(getRandomQuote());
+    // Display the first quote with slide + fade animation
+    setTimeout(() => {
+        displayQuote(getNextQuote());
+    }, 100); // short delay to trigger animation
 
-    // Update the quote every 5 minutes (300,000 ms)
+    // Update quote every 5 minutes (300,000 ms)
     setInterval(() => {
-        displayQuote(getRandomQuote());
+        displayQuote(getNextQuote());
     }, 300000);
 });
