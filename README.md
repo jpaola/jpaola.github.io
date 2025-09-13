@@ -1,7 +1,6 @@
 # jpaola.github.io
 
-Welcome to the repository for my personal website!
-
+Welcome to the repository for my personal website!  
 This site is built using semantic HTML, SCSS/Less/CSS, and minimal dependencies — just the essentials.  
 
 ---
@@ -56,6 +55,33 @@ If you want to build or contribute:
 
 ---
 
+## 🖼️ Image Compression
+
+To keep the site fast and GitHub pushes smooth, all images should be optimized before committing. A helper script `compress.sh` is included in the repo for this purpose.
+
+### How to use:
+
+1. Make sure the script is executable (run once):
+   ```bash
+   chmod +x compress.sh
+   ```
+
+2. Run the script to compress images:
+   ```bash
+   ./compress.sh
+   ```
+
+3. Review changes, then commit and push as usual:
+   ```bash
+   git add .
+   git commit -m "Optimized images"
+   git push origin main
+   ```
+
+**Note:** ⚠️ Always run `compress.sh` before committing new or updated images to keep file sizes small and avoid push issues.
+
+---
+
 ## 📂 Versioning & Updates
 
 - **v1/** folder contains archived content from a previous version of the site.  
@@ -68,9 +94,9 @@ If you want to build or contribute:
 I’d love to hear any suggestions, ideas, or feedback:
 
 - GitHub Issues or Pull Requests welcome  
-- You can reach me via email: *itsmejpaola@gmail.com*
+- You can reach me via email: *your.email@example.com*
 
 ---
 
 Thank you for visiting / viewing my project!  
-— jpaola  
+— jpaola
