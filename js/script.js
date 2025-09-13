@@ -1,4 +1,8 @@
+// Wait until the DOM is fully loaded
 document.addEventListener("DOMContentLoaded", async () => {
+    // ------------------------------
+    // Local fallback quotes
+    // ------------------------------
     const fallbackQuotes = [
         { q: "The only way to do great work is to love what you do.", a: "Steve Jobs" },
         { q: "Success is not final, failure is not fatal: It is the courage to continue that counts.", a: "Winston Churchill" },
@@ -6,21 +10,41 @@ document.addEventListener("DOMContentLoaded", async () => {
     ];
 
     try {
-        // Use the /raw endpoint for direct JSON
-        const response = await fetch(
-            "https://api.allorigins.win/raw?url=" +
-            encodeURIComponent("https://api.quotable.io/random")
-        );
+        // ------------------------------
+        // Fetch a random quote from Quotable
+        // ------------------------------
+        const response = await fetch("https://api.quotable.io/random");
 
-        // Directly parse the JSON
+        if (!response.ok) throw new Error(`Network response not ok: ${response.status}`);
+
         const data = await response.json();
 
-        document.getElementById("quote-text").textContent = `"${data.content}"`;
-        document.getElementById("quote-author").textContent = `– ${data.author}`;
+        // ------------------------------
+        // Update the page with the fetched quote
+        // ------------------------------
+        const quoteText = document.getElementById("quote-text");
+        const quoteAuthor = document.getElementById("quote-author");
+
+        if (quoteText && quoteAuthor) {
+            quoteText.textContent = `"${data.content}"`;
+            quoteAuthor.textContent = `– ${data.author}`;
+        } else {
+            console.warn("Quote elements not found, using fallback.");
+            throw new Error("DOM elements missing");
+        }
     } catch (error) {
-        console.warn("API failed, using local quotes.", error);
+        // ------------------------------
+        // Use a random local quote if fetch fails
+        // ------------------------------
+        console.warn("API failed, using fallback quotes.", error);
         const localQuote = fallbackQuotes[Math.floor(Math.random() * fallbackQuotes.length)];
-        document.getElementById("quote-text").textContent = `"${localQuote.q}"`;
-        document.getElementById("quote-author").textContent = `– ${localQuote.a}`;
+
+        const quoteText = document.getElementById("quote-text");
+        const quoteAuthor = document.getElementById("quote-author");
+
+        if (quoteText && quoteAuthor) {
+            quoteText.textContent = `"${localQuote.q}"`;
+            quoteAuthor.textContent = `– ${localQuote.a}`;
+        }
     }
 });
