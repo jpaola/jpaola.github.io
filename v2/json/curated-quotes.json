@@ -1,0 +1,842 @@
+[
+    {
+        "q": "Waste no more time arguing about what a good man should be. Be one.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "You have power over your mind – not outside events. Realize this, and you will find strength.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "He who is brave is free.",
+        "a": "Seneca"
+    },
+    {
+        "q": "Luck is what happens when preparation meets opportunity.",
+        "a": "Seneca"
+    },
+    {
+        "q": "The soul becomes dyed with the color of its thoughts.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "Happiness depends upon ourselves.",
+        "a": "Aristotle"
+    },
+    {
+        "q": "Knowing yourself is the beginning of all wisdom.",
+        "a": "Aristotle"
+    },
+    {
+        "q": "No man has a good enough memory to be a successful liar.",
+        "a": "Abraham Lincoln"
+    },
+    {
+        "q": "The unexamined life is not worth living.",
+        "a": "Socrates"
+    },
+    {
+        "q": "Be kind, for everyone you meet is fighting a hard battle.",
+        "a": "Plato"
+    },
+    {
+        "q": "The beginning is the most important part of the work.",
+        "a": "Plato"
+    },
+    {
+        "q": "Curb your desire—don’t set your heart on so many things.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "Wealth consists not in having great possessions, but in having few wants.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "Man conquers the world by conquering himself.",
+        "a": "Zeno of Citium"
+    },
+    {
+        "q": "If it is not right do not do it; if it is not true do not say it.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "Freedom is the only worthy goal in life. It is won by disregarding things that lie beyond our control.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "He who angers you conquers you.",
+        "a": "Elizabeth Kenny"
+    },
+    {
+        "q": "Time is a created thing. To say 'I don't have time' is like saying 'I don't want to.'",
+        "a": "Lao Tzu"
+    },
+    {
+        "q": "Do not spoil what you have by desiring what you have not.",
+        "a": "Epicurus"
+    },
+    {
+        "q": "It is not death that a man should fear, but he should fear never beginning to live.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+        "a": "Aristotle"
+    },
+    {
+        "q": "He suffers more than necessary, who suffers before it is necessary.",
+        "a": "Seneca"
+    },
+    {
+        "q": "To enjoy the things we ought and to hate the things we ought has the greatest bearing on excellence of character.",
+        "a": "Aristotle"
+    },
+    {
+        "q": "Don't explain your philosophy. Embody it.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "It is not what happens to you, but how you react to it that matters.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "He who laughs at himself never runs out of things to laugh at.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "Happiness is not an ideal of reason but of imagination.",
+        "a": "Immanuel Kant"
+    },
+    {
+        "q": "Science is organized knowledge. Wisdom is organized life.",
+        "a": "Immanuel Kant"
+    },
+    {
+        "q": "Do not act as if you were going to live ten thousand years. Death hangs over you. While you live, while it is in your power, be good.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "Be content with what you are, and wish not change; nor dread your last day.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "An investment in knowledge pays the best interest.",
+        "a": "Benjamin Franklin"
+    },
+    {
+        "q": "Education is the most powerful weapon which you can use to change the world.",
+        "a": "Nelson Mandela"
+    },
+    {
+        "q": "I think, therefore I am.",
+        "a": "René Descartes"
+    },
+    {
+        "q": "Cogito, ergo sum.",
+        "a": "René Descartes"
+    },
+    {
+        "q": "Act only according to that maxim whereby you can, at the same time, will that it should become a universal law.",
+        "a": "Immanuel Kant"
+    },
+    {
+        "q": "The happiness of your life depends upon the quality of your thoughts.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "Do not act hastily; do not act at all without reason.",
+        "a": "Seneca"
+    },
+    {
+        "q": "Man is the measure of all things.",
+        "a": "Protagoras"
+    },
+    {
+        "q": "Only the educated are free.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "Philosophy begins in wonder.",
+        "a": "Plato"
+    },
+    {
+        "q": "We are what we think. All that we are arises with our thoughts.",
+        "a": "Buddha"
+    },
+    {
+        "q": "What we achieve inwardly will change outer reality.",
+        "a": "Plutarch"
+    },
+    {
+        "q": "Do not let your reflection on the whole sweep of life crush you. Do not fill your mind with all the bad things that might still happen.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "No great thing is created suddenly.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "To live a good life: We have the potential for it. If we can learn to be indifferent to what makes no difference.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "We are always the same age inside.",
+        "a": "Gertrude Stein"
+    },
+    {
+        "q": "It is not what we have, but what we enjoy, that constitutes our abundance.",
+        "a": "Epicurus"
+    },
+    {
+        "q": "Do not dream of your life, but live it.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "He who has a why to live can bear almost any how.",
+        "a": "Friedrich Nietzsche"
+    },
+    {
+        "q": "The important thing is not to stop questioning.",
+        "a": "Albert Einstein"
+    },
+    {
+        "q": "Try not to become a man of success, but rather try to become a man of value.",
+        "a": "Albert Einstein"
+    },
+    {
+        "q": "Man suffers only because he takes seriously what the gods made for fun.",
+        "a": "Alan Watts"
+    },
+    {
+        "q": "Be tolerant with others and strict with yourself.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "No man was ever wise by chance.",
+        "a": "Seneca"
+    },
+    {
+        "q": "He who fears death will never do anything worth of a man who is alive.",
+        "a": "Seneca"
+    },
+    {
+        "q": "A man is but the product of his thoughts. What he thinks, he becomes.",
+        "a": "Mahatma Gandhi"
+    },
+    {
+        "q": "Courage is not simply one of the virtues, but the form of every virtue at the testing point.",
+        "a": "C.S. Lewis"
+    },
+    {
+        "q": "The only thing in our power is our own thoughts.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "It is not suffering, but the fear of suffering that kills us.",
+        "a": "Seneca"
+    },
+    {
+        "q": "First say to yourself what you would be; and then do what you have to do.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "Man is condemned to be free.",
+        "a": "Jean-Paul Sartre"
+    },
+    {
+        "q": "The greatest wealth is to live content with little.",
+        "a": "Plato"
+    },
+    {
+        "q": "Ignorance, the root and stem of every evil.",
+        "a": "Plato"
+    },
+    {
+        "q": "He who is not contented with what he has, would not be contented with what he would like to have.",
+        "a": "Socrates"
+    },
+    {
+        "q": "Education is the kindling of a flame, not the filling of a vessel.",
+        "a": "Socrates"
+    },
+    {
+        "q": "The greatest way to live with honor in this world is to be what we pretend to be.",
+        "a": "Socrates"
+    },
+    {
+        "q": "If you want to improve, be content to be thought foolish and stupid.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "He who conquers himself is the mightiest warrior.",
+        "a": "Confucius"
+    },
+    {
+        "q": "Study without desire spoils the memory, and it retains nothing that it takes in.",
+        "a": "Leonardo da Vinci"
+    },
+    {
+        "q": "Learning never exhausts the mind.",
+        "a": "Leonardo da Vinci"
+    },
+    {
+        "q": "Simplicity is the ultimate sophistication.",
+        "a": "Leonardo da Vinci"
+    },
+    {
+        "q": "All men by nature desire to know.",
+        "a": "Aristotle"
+    },
+    {
+        "q": "Pleasure in the job puts perfection in the work.",
+        "a": "Aristotle"
+    },
+    {
+        "q": "Happiness is the highest good.",
+        "a": "Aristotle"
+    },
+    {
+        "q": "Even while they teach, men learn.",
+        "a": "Seneca"
+    },
+    {
+        "q": "Associate with people who are likely to improve you.",
+        "a": "Seneca"
+    },
+    {
+        "q": "Difficulty shows what men are.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "The greater the difficulty, the more glory in surmounting it.",
+        "a": "Epicurus"
+    },
+    {
+        "q": "Things do not touch the soul, for they are external and remain immovable.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "Do every act of your life as if it were your last.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "Nothing happens to any man that he is not formed by nature to bear.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "Be content with what you have; rejoice in the way things are.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "The best revenge is to be unlike him who performed the injury.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "Do not indulge in dreams of having what you have not.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "Wealth consists not in having great possessions, but in having few wants.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "He is a wise man who does not grieve for the things which he has not.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "No man is free who is not master of himself.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "The art of living is more like wrestling than dancing.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "Freedom is the only worthy goal in life.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "Wealth consists not in having great possessions, but in having few wants.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "Do not demand that things happen as you wish, but wish them to happen as they do.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "Man is not worried by real problems so much as by his imagined anxieties about real problems.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "Do not let the future disturb you. You will meet it, if you have to, with the same reason which today shields you.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "He who is brave is free.",
+        "a": "Seneca"
+    },
+    {
+        "q": "While we teach, we learn.",
+        "a": "Seneca"
+    },
+    {
+        "q": "Associate with those who will make a better man of you.",
+        "a": "Seneca"
+    },
+    {
+        "q": "True happiness is to enjoy the present, without anxious dependence upon the future.",
+        "a": "Seneca"
+    },
+    {
+        "q": "A man’s as miserable as he thinks he is.",
+        "a": "Seneca"
+    },
+    {
+        "q": "Life is very short and anxious for those who forget the past, neglect the present, and fear the future.",
+        "a": "Seneca"
+    },
+    {
+        "q": "No man is hurt but by himself.",
+        "a": "Diogenes"
+    },
+    {
+        "q": "We have two ears and one mouth so that we can listen twice as much as we speak.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "Do not let your reflection on the whole sweep of life crush you.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "Time is what we want most, but what we use worst.",
+        "a": "William Penn"
+    },
+    {
+        "q": "The greatest wealth is to live content with little.",
+        "a": "Plato"
+    },
+    {
+        "q": "Courage leads to heaven; fear leads to death.",
+        "a": "Seneca"
+    },
+    {
+        "q": "No man ever steps in the same river twice, for it’s not the same river and he’s not the same man.",
+        "a": "Heraclitus"
+    },
+    {
+        "q": "Character is destiny.",
+        "a": "Heraclitus"
+    },
+    {
+        "q": "Know thyself.",
+        "a": "Socrates"
+    },
+    {
+        "q": "Be as you wish to seem.",
+        "a": "Socrates"
+    },
+    {
+        "q": "False words are not only evil in themselves, but they infect the soul with evil.",
+        "a": "Plato"
+    },
+    {
+        "q": "He who is not a good servant will not be a good master.",
+        "a": "Plato"
+    },
+    {
+        "q": "Those who are hardest to love need it most.",
+        "a": "Socrates"
+    },
+    {
+        "q": "Silence is a lesson learned through life’s many sufferings.",
+        "a": "Seneca"
+    },
+    {
+        "q": "The wise man does not lay up his own treasures. The more he gives to others, the more he has for his own.",
+        "a": "Lao Tzu"
+    },
+    {
+        "q": "Mastering others is strength; mastering yourself is true power.",
+        "a": "Lao Tzu"
+    },
+    {
+        "q": "When anger rises, think of the consequences.",
+        "a": "Confucius"
+    },
+    {
+        "q": "The superior man is modest in his speech, but exceeds in his actions.",
+        "a": "Confucius"
+    },
+    {
+        "q": "The journey of a thousand miles begins with one step.",
+        "a": "Lao Tzu"
+    },
+    {
+        "q": "Knowing others is intelligence; knowing yourself is true wisdom.",
+        "a": "Lao Tzu"
+    },
+    {
+        "q": "Silence is a source of great strength.",
+        "a": "Lao Tzu"
+    },
+    {
+        "q": "He who controls others may be powerful, but he who has mastered himself is mightier still.",
+        "a": "Lao Tzu"
+    },
+    {
+        "q": "Do not go beyond yourself in all things.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "Be gentle with yourself.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "Nothing endures but change.",
+        "a": "Heraclitus"
+    },
+    {
+        "q": "A fool thinks himself to be wise, but a wise man knows himself to be a fool.",
+        "a": "William Shakespeare"
+    },
+    {
+        "q": "Knowing yourself is the beginning of all wisdom.",
+        "a": "Aristotle"
+    },
+    {
+        "q": "The whole is greater than the sum of its parts.",
+        "a": "Aristotle"
+    },
+    {
+        "q": "Quality is not an act, it is a habit.",
+        "a": "Aristotle"
+    },
+    {
+        "q": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+        "a": "Aristotle"
+    },
+    {
+        "q": "Happiness is the meaning and the purpose of life, the whole aim and end of human existence.",
+        "a": "Aristotle"
+    },
+    {
+        "q": "Man is by nature a social animal.",
+        "a": "Aristotle"
+    },
+    {
+        "q": "Courage is the first of human qualities because it is the quality which guarantees the others.",
+        "a": "Aristotle"
+    },
+    {
+        "q": "The energy of the mind is the essence of life.",
+        "a": "Aristotle"
+    },
+    {
+        "q": "Education is the best provision for old age.",
+        "a": "Aristotle"
+    },
+    {
+        "q": "Difficulties strengthen the mind, as labor does the body.",
+        "a": "Seneca"
+    },
+    {
+        "q": "A gift consists not in what is done or given, but in the intention of the giver or doer.",
+        "a": "Seneca"
+    },
+    {
+        "q": "He who is brave is free.",
+        "a": "Seneca"
+    },
+    {
+        "q": "Time heals what reason cannot.",
+        "a": "Seneca"
+    },
+    {
+        "q": "He who is everywhere is nowhere.",
+        "a": "Seneca"
+    },
+    {
+        "q": "We suffer more often in imagination than in reality.",
+        "a": "Seneca"
+    },
+    {
+        "q": "Life is long if you know how to use it.",
+        "a": "Seneca"
+    },
+    {
+        "q": "The greatest wealth is to live content with little.",
+        "a": "Plato"
+    },
+    {
+        "q": "The measure of a man is what he does with power.",
+        "a": "Plato"
+    },
+    {
+        "q": "Opinion is the medium between knowledge and ignorance.",
+        "a": "Plato"
+    },
+    {
+        "q": "Courage is knowing what not to fear.",
+        "a": "Plato"
+    },
+    {
+        "q": "Do not train a child to learn by force or harshness; but direct them to it by what amuses their minds.",
+        "a": "Plato"
+    },
+    {
+        "q": "Necessity is the mother of invention.",
+        "a": "Plato"
+    },
+    {
+        "q": "Wise men speak because they have something to say; fools because they have to say something.",
+        "a": "Plato"
+    },
+    {
+        "q": "Thinking: the talking of the soul with itself.",
+        "a": "Plato"
+    },
+    {
+        "q": "Courage is not simply one of the virtues, but the form of every virtue at the testing point.",
+        "a": "C.S. Lewis"
+    },
+    {
+        "q": "Integrity is doing the right thing, even when no one is watching.",
+        "a": "C.S. Lewis"
+    },
+    {
+        "q": "Experience: that most brutal of teachers. But you learn, my God do you learn.",
+        "a": "C.S. Lewis"
+    },
+    {
+        "q": "Education without values, as useful as it is, seems rather to make man a more clever devil.",
+        "a": "C.S. Lewis"
+    },
+    {
+        "q": "Friendship is born at that moment when one person says to another: 'What! You too? I thought I was the only one.'",
+        "a": "C.S. Lewis"
+    },
+    {
+        "q": "We are what we believe we are.",
+        "a": "C.S. Lewis"
+    },
+    {
+        "q": "God cannot give us a happiness and peace apart from Himself, because it is not there.",
+        "a": "C.S. Lewis"
+    },
+    {
+        "q": "Humility is not thinking less of yourself, it's thinking of yourself less.",
+        "a": "C.S. Lewis"
+    },
+    {
+        "q": "No man has a good enough memory to be a successful liar.",
+        "a": "Abraham Lincoln"
+    },
+    {
+        "q": "Always bear in mind that your own resolution to succeed is more important than any other one thing.",
+        "a": "Abraham Lincoln"
+    },
+    {
+        "q": "Whatever you are, be a good one.",
+        "a": "Abraham Lincoln"
+    },
+    {
+        "q": "I am a slow walker, but I never walk back.",
+        "a": "Abraham Lincoln"
+    },
+    {
+        "q": "Character is like a tree and reputation like a shadow. The shadow is what we think of it; the tree is the real thing.",
+        "a": "Abraham Lincoln"
+    },
+    {
+        "q": "You cannot escape the responsibility of tomorrow by evading it today.",
+        "a": "Abraham Lincoln"
+    },
+    {
+        "q": "Always do your best. What you plant now, you will harvest later.",
+        "a": "Og Mandino"
+    },
+    {
+        "q": "Failure will never overtake me if my determination to succeed is strong enough.",
+        "a": "Og Mandino"
+    },
+    {
+        "q": "Act now. There is never any time but now, and there never will be any time but now.",
+        "a": "Og Mandino"
+    },
+    {
+        "q": "Live each day as if it were your last. The past is gone, the future is not guaranteed.",
+        "a": "Og Mandino"
+    },
+    {
+        "q": "Love and be loved. That is the beginning and end of everything.",
+        "a": "Og Mandino"
+    },
+    {
+        "q": "What we achieve inwardly will change outer reality.",
+        "a": "Plutarch"
+    },
+    {
+        "q": "An imbalance between rich and poor is the oldest and most fatal ailment of all republics.",
+        "a": "Plutarch"
+    },
+    {
+        "q": "The mind is not a vessel to be filled but a fire to be kindled.",
+        "a": "Plutarch"
+    },
+    {
+        "q": "Know how to listen, and you will profit even from those who talk badly.",
+        "a": "Plutarch"
+    },
+    {
+        "q": "What we do in life echoes in eternity.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "Be like the cliff against which the waves continually break; but it stands firm and tames the fury of the water around it.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "Do not be ashamed of help.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "The impediment to action advances action. What stands in the way becomes the way.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "Life is neither good or evil, but only a place for good and evil.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "Confine yourself to the present.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "Waste no more time arguing about what a good man should be. Be one.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "Be like the cliff against which the waves continually break; it stands firm.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "To understand the true quality of people, you must look into their minds, and examine their pursuits and aversions.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "Think of yourself as dead. You have lived your life. Now take what’s left and live it properly.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "Time is a created thing. To say 'I don’t have time,' is like saying 'I don’t want to.'",
+        "a": "Lao Tzu"
+    },
+    {
+        "q": "The journey of a thousand miles begins with one step.",
+        "a": "Lao Tzu"
+    },
+    {
+        "q": "Knowing others is intelligence; knowing yourself is true wisdom.",
+        "a": "Lao Tzu"
+    },
+    {
+        "q": "Mastering others is strength; mastering yourself is true power.",
+        "a": "Lao Tzu"
+    },
+    {
+        "q": "Silence is a source of great strength.",
+        "a": "Lao Tzu"
+    },
+    {
+        "q": "Be content with what you have; rejoice in the way things are.",
+        "a": "Lao Tzu"
+    },
+    {
+        "q": "He who controls others may be powerful, but he who has mastered himself is mightier still.",
+        "a": "Lao Tzu"
+    },
+    {
+        "q": "Man is not worried by real problems so much as by his imagined anxieties about real problems.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "Do not demand that things happen as you wish, but wish them to happen as they do.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "We have two ears and one mouth so that we can listen twice as much as we speak.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "Only the educated are free.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "Freedom is the only worthy goal in life.",
+        "a": "Epictetus"
+    },
+    {
+        "q": "The art of living is more like wrestling than dancing.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "He suffers more than necessary, who suffers before it is necessary.",
+        "a": "Seneca"
+    },
+    {
+        "q": "Associate with people who are likely to improve you.",
+        "a": "Seneca"
+    },
+    {
+        "q": "Even while they teach, men learn.",
+        "a": "Seneca"
+    },
+    {
+        "q": "The best revenge is to be unlike him who performed the injury.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "Do not act as if you were going to live ten thousand years. Death hangs over you.",
+        "a": "Marcus Aurelius"
+    },
+    {
+        "q": "An investment in knowledge pays the best interest.",
+        "a": "Benjamin Franklin"
+    },
+    {
+        "q": "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+        "a": "Benjamin Franklin"
+    },
+    {
+        "q": "Well done is better than well said.",
+        "a": "Benjamin Franklin"
+    },
+    {
+        "q": "Energy and persistence conquer all things.",
+        "a": "Benjamin Franklin"
+    },
+    {
+        "q": "By failing to prepare, you are preparing to fail.",
+        "a": "Benjamin Franklin"
+    },
+    {
+        "q": "Do not anticipate trouble, or worry about what may never happen.",
+        "a": "Benjamin Franklin"
+    },
+    {
+        "q": "The doors of wisdom are never shut.",
+        "a": "Benjamin Franklin"
+    },
+    {
+        "q": "An ounce of prevention is worth a pound of cure.",
+        "a": "Benjamin Franklin"
+    },
+    {
+        "q": "Be at war with your vices, at peace with your neighbors, and let every new year find you a better man.",
+        "a": "Benjamin Franklin"
+    },
+    {
+        "q": "Well done is better than well said.",
+        "a": "Benjamin Franklin"
+    }
+]

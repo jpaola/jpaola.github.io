@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional global tweaks */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-bg-dark text-text-light font-sans;
+}
+
+/* 🔮 Soft glow utility class */
+.glow-hover {
+  transition: all 0.3s ease;
+}
+
+.glow-hover:hover {
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+  filter: drop-shadow(0 0 6px rgba(118, 75, 162, 0.4));
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #667eea, #764ba2, #667eea);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 6s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
